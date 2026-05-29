@@ -79,29 +79,29 @@ const translations = {
   },
   fr: {
     name: 'Thierry Amiot',
-    tagline: 'Leader en Technologie des Paiements & Innovateur',
+    tagline: 'Expert en Technologies de Paiement & Innovateur',
     navLinks: {
       projects: 'Projets',
       expertise: 'Compétences',
       experience: 'Expérience',
       academic: 'Formation',
-      about: 'À propos'
+      about: 'Contact'
     },
     hero: {
-      title: 'Leader en Technologie',
+      title: 'Expert en Technologie',
       titleHighlight: 'des Paiements & Innovateur',
-      subtitle: '13+ ans à concevoir des solutions de paiement complexes et stratégiques à travers l\'Europe. Spécialiste multilingue en paiements par carte, prévention de la fraude et innovation en services financiers.',
-      viewWork: 'Voir mes travaux',
+      subtitle: 'Plus de 13 ans d\'expérience dans la conception et la mise en œuvre de solutions de paiement internationales complexes et stratégiques en Europe. Spécialiste des paiements par carte, de la prévention de la fraude et de l\'innovation fintech.',
+      viewWork: 'Voir mes projets',
       downloadCV: 'Télécharger mon CV',
       connectLinkedIn: 'Me connecter sur LinkedIn'
     },
     achievements: {
       title: 'Pourquoi',
-      titleHighlight: 'Travailler ensemble',
+      titleHighlight: 'Collaborer avec moi',
       items: [
-        { title: 'Leader d\'industrie', description: '13+ ans en technologie des paiements, dirigeant des projets complexes en région EMEA avec des institutions de premier rang.' },
-        { title: 'Développeur polyvalent', description: 'Des pipelines Python aux applications React. Entrepreneur avec plusieurs projets en production.' },
-        { title: 'Rigueur académique', description: 'Master Birkbeck, recherches publiées sur l\'adoption de la technologie blockchain dans les systèmes de paiement.' },
+        { title: 'Expert du secteur', description: 'Plus de 13 ans dans les technologies de paiement, à piloter des projets complexes en EMEA pour des institutions financières de premier plan.' },
+        { title: 'Développeur polyvalent', description: 'Développeur full-stack : pipelines de données en Python et interfaces modernes en React. Entrepreneur avec plusieurs produits SaaS en production.' },
+        { title: 'Excellence académique', description: 'Master à Birkbeck (Université de Londres) avec une recherche publiée sur l\'adoption de la blockchain dans les systèmes de paiement.' },
         { title: 'Multilingue', description: 'Français et portugais maternels, anglais et espagnol courants.' }
       ]
     },
@@ -111,11 +111,11 @@ const translations = {
     },
     expertise: {
       title: 'Compétences',
-      titleHighlight: 'Professionnelles'
+      titleHighlight: 'et Savoir-faire'
     },
     experience: {
-      title: 'Leadership',
-      titleHighlight: 'Professionnel'
+      title: 'Expérience',
+      titleHighlight: 'Professionnelle'
     },
     academic: {
       title: 'Formation',
@@ -124,13 +124,13 @@ const translations = {
     about: {
       title: 'Me',
       titleHighlight: 'Contacter',
-      email: 'Courrier électronique',
+      email: 'Courriel',
       linkedinDesc: 'Me connecter sur LinkedIn',
-      githubDesc: 'Consulter mes projets'
+      githubDesc: 'Voir mes projets'
     },
     footer: {
-      tagline: 'Leader en technologie des paiements, innovateur en services financiers et résolveur de problèmes complexes',
-      copyright: '© 2026 Thierry Amiot. Tous les droits réservés.'
+      tagline: 'Expert en technologies de paiement, innovateur fintech et résolveur de problèmes concrets',
+      copyright: '© 2026 Thierry Amiot. Tous droits réservés.'
     },
     skills: {
       paymentSystems: 'Systèmes de paiement',
@@ -138,13 +138,13 @@ const translations = {
       frontendDev: 'Développement d\'interface',
       backendDev: 'Développement serveur',
       projectManagement: 'Gestion de projets',
-      teamLeadership: 'Leadership d\'équipe',
-      agile: 'Méthodologie Agile',
-      crossFunctional: 'Transversal',
+      teamLeadership: 'Animation d\'équipes',
+      agile: 'Méthode Agile',
+      crossFunctional: 'Travail transversal',
       react: 'React',
       tailwind: 'Tailwind CSS',
       javascript: 'JavaScript',
-      responsiveDesign: 'Conception réactive',
+      responsiveDesign: 'Design adaptatif',
       python: 'Python',
       dataPipelines: 'Pipelines de données',
       githubActions: 'GitHub Actions',
@@ -153,30 +153,30 @@ const translations = {
   },
   es: {
     name: 'Thierry Amiot',
-    tagline: 'Líder en Tecnología de Pagos e Innovador',
+    tagline: 'Experto en Tecnología de Pagos e Innovador',
     navLinks: {
       projects: 'Proyectos',
       expertise: 'Competencias',
       experience: 'Experiencia',
       academic: 'Formación',
-      about: 'Acerca de'
+      about: 'Contacto'
     },
     hero: {
-      title: 'Líder en Tecnología',
+      title: 'Experto en Tecnología',
       titleHighlight: 'de Pagos e Innovador',
-      subtitle: '13+ años diseñando soluciones de pago complejas y de alto impacto en toda Europa. Especialista multilingüe en pagos con tarjeta, prevención de fraude e innovación en tecnología financiera.',
-      viewWork: 'Ver mis trabajos',
+      subtitle: 'Más de 13 años diseñando e implementando soluciones de pago internacionales complejas y de alto impacto en Europa. Especialista en pagos con tarjeta, prevención de fraude e innovación fintech.',
+      viewWork: 'Ver mis proyectos',
       downloadCV: 'Descargar mi CV',
       connectLinkedIn: 'Conectarme en LinkedIn'
     },
     achievements: {
       title: 'Por qué',
-      titleHighlight: 'Trabajar juntos',
+      titleHighlight: 'Trabajar conmigo',
       items: [
-        { title: 'Líder de industria', description: '13+ años en tecnología de pagos, liderando proyectos complejos en región EMEA con instituciones de primer nivel.' },
-        { title: 'Desarrollador polivalente', description: 'Desde programas Python hasta aplicaciones React. Empresario con múltiples proyectos en producción.' },
-        { title: 'Rigor académico', description: 'Máster de Birkbeck, investigación publicada sobre adopción de tecnología blockchain en sistemas de pagos.' },
-        { title: 'Multilingüe', description: 'Francés y portugués nativos, inglés y español con dominio completo.' }
+        { title: 'Experto del sector', description: 'Más de 13 años en tecnologías de pago, liderando proyectos complejos en EMEA para instituciones financieras de primer nivel.' },
+        { title: 'Desarrollador versátil', description: 'Desarrollador full-stack: pipelines de datos en Python e interfaces modernas en React. Emprendedor con varios productos SaaS en producción.' },
+        { title: 'Excelencia académica', description: 'Máster por Birkbeck (Universidad de Londres) con investigación publicada sobre la adopción de blockchain en sistemas de pago.' },
+        { title: 'Multilingüe', description: 'Francés y portugués nativos, inglés y español con fluidez.' }
       ]
     },
     projects: {
@@ -185,10 +185,10 @@ const translations = {
     },
     expertise: {
       title: 'Competencias',
-      titleHighlight: 'Profesionales'
+      titleHighlight: 'y Conocimientos'
     },
     experience: {
-      title: 'Liderazgo',
+      title: 'Experiencia',
       titleHighlight: 'Profesional'
     },
     academic: {
@@ -196,14 +196,14 @@ const translations = {
       titleHighlight: 'e Investigación'
     },
     about: {
-      title: 'Ponte en',
+      title: 'Ponerse en',
       titleHighlight: 'Contacto',
       email: 'Correo electrónico',
       linkedinDesc: 'Conectarme en LinkedIn',
       githubDesc: 'Ver mis proyectos'
     },
     footer: {
-      tagline: 'Líder en tecnología de pagos, innovador en tecnología financiera y resolutor de problemas complejos',
+      tagline: 'Experto en tecnologías de pago, innovador fintech y solucionador de problemas prácticos',
       copyright: '© 2026 Thierry Amiot. Todos los derechos reservados.'
     },
     skills: {
@@ -214,7 +214,7 @@ const translations = {
       projectManagement: 'Gestión de proyectos',
       teamLeadership: 'Liderazgo de equipos',
       agile: 'Metodología Ágil',
-      crossFunctional: 'Transversal',
+      crossFunctional: 'Trabajo transversal',
       react: 'React',
       tailwind: 'Tailwind CSS',
       javascript: 'JavaScript',
@@ -227,30 +227,30 @@ const translations = {
   },
   pt: {
     name: 'Thierry Amiot',
-    tagline: 'Líder em Tecnologia de Pagamentos & Inovador',
+    tagline: 'Especialista em Tecnologias de Pagamento & Inovador',
     navLinks: {
       projects: 'Projectos',
       expertise: 'Competências',
       experience: 'Experiência',
       academic: 'Formação',
-      about: 'Sobre'
+      about: 'Contacto'
     },
     hero: {
-      title: 'Líder em Tecnologia',
+      title: 'Especialista em Tecnologia',
       titleHighlight: 'de Pagamentos & Inovador',
-      subtitle: '13+ anos a conceber soluções de pagamento complexas e de elevado impacto em toda a Europa. Especialista multilingue em pagamentos com cartão, prevenção de fraude e inovação em tecnologia financeira.',
-      viewWork: 'Ver meus trabalhos',
+      subtitle: 'Mais de 13 anos a desenvolver e implementar soluções de pagamento internacionais complexas e de alto impacto em toda a Europa. Especialista em pagamentos com cartão, prevenção de fraude e inovação em tecnologia financeira.',
+      viewWork: 'Ver os meus projectos',
       downloadCV: 'Descarregar o meu CV',
       connectLinkedIn: 'Conectar-me no LinkedIn'
     },
     achievements: {
-      title: 'Por que',
-      titleHighlight: 'Trabalhar juntos',
+      title: 'Porquê',
+      titleHighlight: 'Trabalhar comigo',
       items: [
-        { title: 'Líder do sector', description: '13+ anos em tecnologia de pagamentos, liderando projectos complexos na região EMEA com instituições de topo.' },
-        { title: 'Programador completo', description: 'De programas Python a aplicações React. Empresário com vários projectos em produção.' },
-        { title: 'Rigor académico', description: 'Mestrado Birkbeck, pesquisa publicada sobre adopção de tecnologia blockchain em sistemas de pagamentos.' },
-        { title: 'Multilingue', description: 'Francês e português materno, inglês e espanhol com domínio completo.' }
+        { title: 'Especialista do sector', description: 'Mais de 13 anos em tecnologias de pagamento, a liderar projectos complexos na EMEA para instituições financeiras de primeiro nível.' },
+        { title: 'Desenvolvedor versátil', description: 'Desenvolvedor completo: pipelines de dados em Python e interfaces modernas em React. Empreendedor com vários produtos SaaS em produção.' },
+        { title: 'Excelência académica', description: 'Mestrado na Birkbeck (Universidade de Londres) com investigação publicada sobre a adopção da blockchain nos sistemas de pagamento.' },
+        { title: 'Multilingue', description: 'Francês e português maternos, inglês e espanhol fluentes.' }
       ]
     },
     projects: {
@@ -259,25 +259,25 @@ const translations = {
     },
     expertise: {
       title: 'Competências',
-      titleHighlight: 'Profissionais'
+      titleHighlight: 'e Conhecimentos'
     },
     experience: {
-      title: 'Liderança',
+      title: 'Experiência',
       titleHighlight: 'Profissional'
     },
     academic: {
       title: 'Formação',
-      titleHighlight: 'e Pesquisa'
+      titleHighlight: 'e Investigação'
     },
     about: {
-      title: 'Contacte-',
-      titleHighlight: 'me',
+      title: 'Entre em',
+      titleHighlight: 'Contacto',
       email: 'Correio electrónico',
       linkedinDesc: 'Conectar-me no LinkedIn',
-      githubDesc: 'Ver meus projectos'
+      githubDesc: 'Ver os meus projectos'
     },
     footer: {
-      tagline: 'Líder em tecnologia de pagamentos, inovador em tecnologia financeira e solucionador de problemas complexos',
+      tagline: 'Especialista em tecnologias de pagamento, inovador fintech e resolvedor de problemas práticos',
       copyright: '© 2026 Thierry Amiot. Todos os direitos reservados.'
     },
     skills: {
@@ -288,11 +288,11 @@ const translations = {
       projectManagement: 'Gestão de projectos',
       teamLeadership: 'Liderança de equipas',
       agile: 'Metodologia Ágil',
-      crossFunctional: 'Transversal',
+      crossFunctional: 'Trabalho transversal',
       react: 'React',
       tailwind: 'Tailwind CSS',
       javascript: 'JavaScript',
-      responsiveDesign: 'Desenho responsivo',
+      responsiveDesign: 'Design responsivo',
       python: 'Python',
       dataPipelines: 'Pipelines de dados',
       githubActions: 'GitHub Actions',
