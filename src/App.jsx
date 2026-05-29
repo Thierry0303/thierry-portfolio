@@ -57,6 +57,24 @@ const translations = {
     footer: {
       tagline: 'Payment technology leader, fintech innovator, and practical problem solver',
       copyright: '© 2026 Thierry Amiot. All rights reserved.'
+    },
+    skills: {
+      paymentSystems: 'Payment Systems',
+      technicalLeadership: 'Technical Leadership',
+      frontendDev: 'Frontend Development',
+      backendDev: 'Backend Development',
+      projectManagement: 'Project Management',
+      teamLeadership: 'Team Leadership',
+      agile: 'Agile',
+      crossFunctional: 'Cross-functional',
+      react: 'React',
+      tailwind: 'Tailwind CSS',
+      javascript: 'JavaScript',
+      responsiveDesign: 'Responsive Design',
+      python: 'Python',
+      dataPipelines: 'Data Pipelines',
+      githubActions: 'GitHub Actions',
+      automation: 'Automation'
     }
   },
   fr: {
@@ -66,7 +84,7 @@ const translations = {
       projects: 'Projets',
       expertise: 'Compétences',
       experience: 'Expérience',
-      academic: 'Académique',
+      academic: 'Formation',
       about: 'À propos'
     },
     hero: {
@@ -113,6 +131,24 @@ const translations = {
     footer: {
       tagline: 'Leader en technologie des paiements, innovateur en services financiers et résolveur de problèmes complexes',
       copyright: '© 2026 Thierry Amiot. Tous les droits réservés.'
+    },
+    skills: {
+      paymentSystems: 'Systèmes de paiement',
+      technicalLeadership: 'Leadership technique',
+      frontendDev: 'Développement d\'interface',
+      backendDev: 'Développement serveur',
+      projectManagement: 'Gestion de projets',
+      teamLeadership: 'Leadership d\'équipe',
+      agile: 'Méthodologie Agile',
+      crossFunctional: 'Transversal',
+      react: 'React',
+      tailwind: 'Tailwind CSS',
+      javascript: 'JavaScript',
+      responsiveDesign: 'Conception réactive',
+      python: 'Python',
+      dataPipelines: 'Pipelines de données',
+      githubActions: 'GitHub Actions',
+      automation: 'Automatisation'
     }
   },
   es: {
@@ -122,7 +158,7 @@ const translations = {
       projects: 'Proyectos',
       expertise: 'Competencias',
       experience: 'Experiencia',
-      academic: 'Académico',
+      academic: 'Formación',
       about: 'Acerca de'
     },
     hero: {
@@ -169,6 +205,24 @@ const translations = {
     footer: {
       tagline: 'Líder en tecnología de pagos, innovador en tecnología financiera y resolutor de problemas complejos',
       copyright: '© 2026 Thierry Amiot. Todos los derechos reservados.'
+    },
+    skills: {
+      paymentSystems: 'Sistemas de pago',
+      technicalLeadership: 'Liderazgo técnico',
+      frontendDev: 'Desarrollo de interfaz',
+      backendDev: 'Desarrollo de servidor',
+      projectManagement: 'Gestión de proyectos',
+      teamLeadership: 'Liderazgo de equipos',
+      agile: 'Metodología Ágil',
+      crossFunctional: 'Transversal',
+      react: 'React',
+      tailwind: 'Tailwind CSS',
+      javascript: 'JavaScript',
+      responsiveDesign: 'Diseño responsivo',
+      python: 'Python',
+      dataPipelines: 'Tuberías de datos',
+      githubActions: 'GitHub Actions',
+      automation: 'Automatización'
     }
   },
   pt: {
@@ -178,7 +232,7 @@ const translations = {
       projects: 'Projectos',
       expertise: 'Competências',
       experience: 'Experiência',
-      academic: 'Académico',
+      academic: 'Formação',
       about: 'Sobre'
     },
     hero: {
@@ -225,6 +279,24 @@ const translations = {
     footer: {
       tagline: 'Líder em tecnologia de pagamentos, inovador em tecnologia financeira e solucionador de problemas complexos',
       copyright: '© 2026 Thierry Amiot. Todos os direitos reservados.'
+    },
+    skills: {
+      paymentSystems: 'Sistemas de pagamento',
+      technicalLeadership: 'Liderança técnica',
+      frontendDev: 'Desenvolvimento de interface',
+      backendDev: 'Desenvolvimento de servidor',
+      projectManagement: 'Gestão de projectos',
+      teamLeadership: 'Liderança de equipas',
+      agile: 'Metodologia Ágil',
+      crossFunctional: 'Transversal',
+      react: 'React',
+      tailwind: 'Tailwind CSS',
+      javascript: 'JavaScript',
+      responsiveDesign: 'Desenho responsivo',
+      python: 'Python',
+      dataPipelines: 'Pipelines de dados',
+      githubActions: 'GitHub Actions',
+      automation: 'Automatização'
     }
   }
 };
@@ -310,7 +382,7 @@ export default function ThierryPortfolio() {
       titlePt: 'Directório de Escolas de Londres',
       descEn: 'Comprehensive directory of London schools with advanced filtering, admissions data, and school performance metrics.',
       descFr: 'Répertoire complet des écoles de Londres avec filtrage avancé, données d\'admission et métriques de rendement scolaire.',
-      descEs: 'Directorio completo de escuelas de Londres con filtrado avanzado, datos de admisión y métricas de rendimiento escolar.',
+      descEs: 'Directorio completo de escuelas de Londres con filtrado avanzado, datos de admisión y métriques de rendimiento escolar.',
       descPt: 'Directório completo de escolas de Londres com filtros avançados, dados de admissão e métricas de desempenho escolar.',
       link: 'https://londonschool.directory',
       highlights: ['DfE Data', 'Advanced Filtering', 'Real-time Updates'],
@@ -387,41 +459,22 @@ export default function ThierryPortfolio() {
 
   const skills = [
     { 
-      categoryEn: 'Payment Systems',
-      categoryFr: 'Systèmes de paiement',
-      categoryEs: 'Sistemas de pago',
-      categoryPt: 'Sistemas de pagamento',
+      categoryKey: 'paymentSystems',
       skills: ['ISO 8583', 'EMV', 'NFC', '3DS 2.0', 'PCI DSS', 'Tokenization'] 
     },
     { 
-      categoryEn: 'Technical Leadership',
-      categoryFr: 'Leadership technique',
-      categoryEs: 'Liderazgo técnico',
-      categoryPt: 'Liderança técnica',
-      skills: ['Project Management', 'Team Leadership', 'Agile', 'Cross-functional'] 
+      categoryKey: 'technicalLeadership',
+      skillKeys: ['projectManagement', 'teamLeadership', 'agile', 'crossFunctional']
     },
     { 
-      categoryEn: 'Frontend Development',
-      categoryFr: 'Développement d\'interface',
-      categoryEs: 'Desarrollo de interfaz',
-      categoryPt: 'Desenvolvimento de interface',
-      skills: ['React', 'Tailwind CSS', 'JavaScript', 'Responsive Design'] 
+      categoryKey: 'frontendDev',
+      skillKeys: ['react', 'tailwind', 'javascript', 'responsiveDesign']
     },
     { 
-      categoryEn: 'Backend Development',
-      categoryFr: 'Développement serveur',
-      categoryEs: 'Desarrollo de servidor',
-      categoryPt: 'Desenvolvimento de servidor',
-      skills: ['Python', 'Data Pipelines', 'GitHub Actions', 'Automation'] 
+      categoryKey: 'backendDev',
+      skillKeys: ['python', 'dataPipelines', 'githubActions', 'automation']
     }
   ];
-
-  const getSkillCategory = (skill) => {
-    if (language === 'en') return skill.categoryEn;
-    if (language === 'fr') return skill.categoryFr;
-    if (language === 'es') return skill.categoryEs;
-    if (language === 'pt') return skill.categoryPt;
-  };
 
   const experiences = [
     {
@@ -444,19 +497,19 @@ export default function ThierryPortfolio() {
       highlightsFr: [
         'Gestion stratégique des comptes clients de premier rang dans toute la région EMEA',
         'Diriger les intégrations API complexes et les implémentations 3DS 2.0',
-        'Coordonner les équipes interfonctionnelles sur la prévention de la fraude',
+        'Coordonner les équipes transversales sur la prévention de la fraude',
         'Maintenir des métriques élevées de satisfaction client'
       ],
       highlightsEs: [
         'Gestión estratégica de cuentas de clientes de primer nivel en toda la región EMEA',
         'Liderar integraciones API complejas e implementaciones 3DS 2.0',
-        'Coordinar equipos multifuncionales en prevención de fraude',
+        'Coordinar equipos transversales en prevención de fraude',
         'Mantener métricas altas de satisfacción del cliente'
       ],
       highlightsPt: [
         'Gestão estratégica de contas de clientes de topo em toda a região EMEA',
         'Liderar integrações API complexas e implementações 3DS 2.0',
-        'Coordenar equipas multifuncionais sobre prevenção de fraude',
+        'Coordenar equipas transversais sobre prevenção de fraude',
         'Manter métricas elevadas de satisfação do cliente'
       ]
     },
@@ -562,6 +615,10 @@ export default function ThierryPortfolio() {
     if (language === 'pt') return item.detailsPt;
   };
 
+  const getSkillLabel = (skillKey) => {
+    return t.skills[skillKey] || skillKey;
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-gray-100 overflow-x-hidden">
       
@@ -585,7 +642,7 @@ export default function ThierryPortfolio() {
                 key={item}
                 onClick={() => scrollToSection(item)}
                 whileHover={{ scale: 1.1 }}
-                className={`capitalize font-semibold transition ${
+                className={`font-semibold transition ${
                   activeSection === item ? 'text-amber-300' : 'text-gray-400 hover:text-amber-300'
                 }`}
               >
@@ -634,7 +691,7 @@ export default function ThierryPortfolio() {
               <motion.button
                 key={item}
                 onClick={() => scrollToSection(item)}
-                className="block w-full text-left py-2 capitalize text-gray-400 hover:text-amber-300"
+                className="block w-full text-left py-2 text-gray-400 hover:text-amber-300"
               >
                 {t.navLinks[item]}
               </motion.button>
@@ -821,11 +878,15 @@ export default function ThierryPortfolio() {
                 variants={fadeInUp}
                 className="p-8 rounded-xl bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-700"
               >
-                <h3 className="text-xl font-bold mb-4 text-amber-300">{getSkillCategory(skillGroup)}</h3>
+                <h3 className="text-xl font-bold mb-4 text-amber-300">{getSkillLabel(skillGroup.categoryKey)}</h3>
                 <div className="flex flex-wrap gap-3">
-                  {skillGroup.skills.map((skill, i) => (
+                  {skillGroup.skills ? skillGroup.skills.map((skill, i) => (
                     <span key={i} className="px-4 py-2 rounded-lg bg-amber-400/10 text-amber-300 border border-amber-400/30">
                       {skill}
+                    </span>
+                  )) : skillGroup.skillKeys.map((skillKey, i) => (
+                    <span key={i} className="px-4 py-2 rounded-lg bg-amber-400/10 text-amber-300 border border-amber-400/30">
+                      {getSkillLabel(skillKey)}
                     </span>
                   ))}
                 </div>
