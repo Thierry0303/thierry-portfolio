@@ -19,8 +19,7 @@ const translations = {
       subtitle: '13+ years delivering complex, high-impact international payment solutions across Europe. Multilingual specialist in card payments, fraud prevention, and fintech innovation.',
       viewWork: 'View Work',
       downloadCV: 'Download CV',
-      connectLinkedIn: 'Connect on LinkedIn',
-      cvLink: '/cvs/Thierry_Amiot_CV_EN.pdf'
+      connectLinkedIn: 'Connect on LinkedIn'
     },
     achievements: {
       title: 'Why',
@@ -94,8 +93,7 @@ const translations = {
       subtitle: 'Plus de 13 ans d\'expérience dans la conception et la mise en œuvre de solutions de paiement internationales complexes et stratégiques en Europe. Spécialiste des paiements par carte, de la prévention de la fraude et de l\'innovation fintech.',
       viewWork: 'Voir mes projets',
       downloadCV: 'Télécharger mon CV',
-      connectLinkedIn: 'Me connecter sur LinkedIn',
-      cvLink: '/cvs/Thierry_Amiot_CV_FR.pdf'
+      connectLinkedIn: 'Me connecter sur LinkedIn'
     },
     achievements: {
       title: 'Pourquoi',
@@ -169,8 +167,7 @@ const translations = {
       subtitle: 'Más de 13 años diseñando e implementando soluciones de pago internacionales complejas y de alto impacto en Europa. Especialista en pagos con tarjeta, prevención de fraude e innovación fintech.',
       viewWork: 'Ver mis proyectos',
       downloadCV: 'Descargar mi CV',
-      connectLinkedIn: 'Conectarme en LinkedIn',
-      cvLink: '/cvs/Thierry_Amiot_CV_ES.pdf'
+      connectLinkedIn: 'Conectarme en LinkedIn'
     },
     achievements: {
       title: 'Por qué',
@@ -244,8 +241,7 @@ const translations = {
       subtitle: 'Mais de 13 anos a desenvolver e implementar soluções de pagamento internacionais complexas e de alto impacto em toda a Europa. Especialista em pagamentos com cartão, prevenção de fraude e inovação em tecnologia financeira.',
       viewWork: 'Ver os meus projectos',
       downloadCV: 'Descarregar o meu CV',
-      connectLinkedIn: 'Conectar-me no LinkedIn',
-      cvLink: '/cvs/Thierry_Amiot_CV_PT.pdf'
+      connectLinkedIn: 'Conectar-me no LinkedIn'
     },
     achievements: {
       title: 'Porquê',
@@ -487,10 +483,7 @@ export default function ThierryPortfolio() {
       titleEs: 'Gerente de Éxito del Cliente',
       titlePt: 'Gestor de Sucesso do Cliente',
       company: 'Outseer (RSA Security)',
-      periodEn: 'November 2021 – Present',
-      periodFr: 'Novembre 2021 – Présent',
-      periodEs: 'Noviembre 2021 – Presente',
-      periodPt: 'Novembro 2021 – Presente',
+      period: 'November 2021 – Present',
       focusEn: '3DS Fraud Prevention Solutions',
       focusFr: 'Solutions de prévention de fraude 3DS',
       focusEs: 'Soluciones de prevención de fraude 3DS',
@@ -526,10 +519,7 @@ export default function ThierryPortfolio() {
       titleEs: 'Gerente de Proyecto Senior',
       titlePt: 'Gestor de Projecto Sénior',
       company: 'Diners Club / Discover Financial Services',
-      periodEn: 'May 2017 – November 2021',
-      periodFr: 'Mai 2017 – Novembre 2021',
-      periodEs: 'Mayo 2017 – Noviembre 2021',
-      periodPt: 'Maio 2017 – Novembro 2021',
+      period: 'May 2017 – November 2021',
       focusEn: 'Global Acquirer Onboarding',
       focusFr: 'Intégration globale d\'acquéreurs',
       focusEs: 'Integración global de adquirentes',
@@ -560,13 +550,6 @@ export default function ThierryPortfolio() {
       ]
     }
   ];
-
-  const getExperiencePeriod = (exp) => {
-    if (language === 'en') return exp.periodEn;
-    if (language === 'fr') return exp.periodFr;
-    if (language === 'es') return exp.periodEs;
-    if (language === 'pt') return exp.periodPt;
-  };
 
   const getExperienceTitle = (exp) => {
     if (language === 'en') return exp.titleEn;
@@ -763,8 +746,9 @@ export default function ThierryPortfolio() {
               {t.hero.viewWork}
             </motion.button>
             <motion.a 
-              href={t.hero.cvLink}
-              download
+              href="https://drive.google.com/uc?export=download&id=1qNKxVuf7t0ft31dUjH_bUu88CdHnVLuF"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               className="px-8 py-3 border-2 border-amber-400 text-amber-300 font-semibold rounded-lg hover:bg-amber-400/10 transition cursor-pointer flex items-center gap-2"
             >
@@ -939,7 +923,7 @@ export default function ThierryPortfolio() {
                     <h3 className="text-xl md:text-2xl font-bold text-white">{getExperienceTitle(exp)}</h3>
                     <p className="text-amber-300 font-semibold text-sm md:text-base">{exp.company}</p>
                   </div>
-                  <span className="text-gray-500 text-sm md:text-base">{getExperiencePeriod(exp)}</span>
+                  <span className="text-gray-500 text-sm md:text-base">{exp.period}</span>
                 </div>
                 
                 <p className="text-gray-400 mb-4 italic text-sm md:text-base">{getExperienceFocus(exp)}</p>
