@@ -483,7 +483,10 @@ export default function ThierryPortfolio() {
       titleEs: 'Gerente de Éxito del Cliente',
       titlePt: 'Gestor de Sucesso do Cliente',
       company: 'Outseer (RSA Security)',
-      period: 'November 2021 – Present',
+      periodEn: 'November 2021 – Present',
+      periodFr: 'Novembre 2021 – Présent',
+      periodEs: 'Noviembre 2021 – Presente',
+      periodPt: 'Novembro 2021 – Presente',
       focusEn: '3DS Fraud Prevention Solutions',
       focusFr: 'Solutions de prévention de fraude 3DS',
       focusEs: 'Soluciones de prevención de fraude 3DS',
@@ -519,7 +522,10 @@ export default function ThierryPortfolio() {
       titleEs: 'Gerente de Proyecto Senior',
       titlePt: 'Gestor de Projecto Sénior',
       company: 'Diners Club / Discover Financial Services',
-      period: 'May 2017 – November 2021',
+      periodEn: 'May 2017 – November 2021',
+      periodFr: 'Mai 2017 – Novembre 2021',
+      periodEs: 'Mayo 2017 – Noviembre 2021',
+      periodPt: 'Maio 2017 – Novembro 2021',
       focusEn: 'Global Acquirer Onboarding',
       focusFr: 'Intégration globale d\'acquéreurs',
       focusEs: 'Integración global de adquirentes',
@@ -550,6 +556,13 @@ export default function ThierryPortfolio() {
       ]
     }
   ];
+
+  const getExperiencePeriod = (exp) => {
+    if (language === 'en') return exp.periodEn;
+    if (language === 'fr') return exp.periodFr;
+    if (language === 'es') return exp.periodEs;
+    if (language === 'pt') return exp.periodPt;
+  };
 
   const getExperienceTitle = (exp) => {
     if (language === 'en') return exp.titleEn;
@@ -923,7 +936,7 @@ export default function ThierryPortfolio() {
                     <h3 className="text-xl md:text-2xl font-bold text-white">{getExperienceTitle(exp)}</h3>
                     <p className="text-amber-300 font-semibold text-sm md:text-base">{exp.company}</p>
                   </div>
-                  <span className="text-gray-500 text-sm md:text-base">{exp.period}</span>
+                  <span className="text-gray-500 text-sm md:text-base">{getExperiencePeriod(exp)}</span>
                 </div>
                 
                 <p className="text-gray-400 mb-4 italic text-sm md:text-base">{getExperienceFocus(exp)}</p>
