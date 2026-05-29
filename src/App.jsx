@@ -447,6 +447,32 @@ export default function ThierryPortfolio() {
       link: 'https://thierry0303.github.io/paydev-docs/',
       highlights: ['Standards', 'Technical', 'Developer'],
       color: 'from-purple-600 to-purple-400'
+    },
+    {
+      titleEn: 'Card Payment Training',
+      titleFr: 'Formation aux Paiements par Carte',
+      titleEs: 'Capacitación en Pagos con Tarjeta',
+      titlePt: 'Formação em Pagamentos com Cartão',
+      descEn: 'Interactive training program covering card payment systems, ISO 8583, EMV protocols, and payment processing workflows.',
+      descFr: 'Programme de formation interactif couvrant les systèmes de paiement par carte, ISO 8583, protocoles EMV et flux de traitement des paiements.',
+      descEs: 'Programa de capacitación interactivo que cubre sistemas de pago con tarjeta, ISO 8583, protocolos EMV y flujos de procesamiento de pagos.',
+      descPt: 'Programa de formação interativa cobrindo sistemas de pagamento com cartão, ISO 8583, protocolos EMV e fluxos de processamento de pagamentos.',
+      link: 'https://thierry0303.github.io/training/',
+      highlights: ['Educational', 'Card Systems', 'Interactive'],
+      color: 'from-indigo-600 to-indigo-400'
+    },
+    {
+      titleEn: '3DS Flow Simulator',
+      titleFr: 'Simulateur de Flux 3DS',
+      titleEs: 'Simulador de Flujo 3DS',
+      titlePt: 'Simulador de Fluxo 3DS',
+      descEn: 'Interactive simulator demonstrating 3D Secure payment authentication flows, risk assessment, and fraud prevention mechanisms.',
+      descFr: 'Simulateur interactif démontrant les flux d\'authentification de paiement 3D Secure, l\'évaluation des risques et les mécanismes de prévention de la fraude.',
+      descEs: 'Simulador interactivo que demuestra flujos de autenticación de pago 3D Secure, evaluación de riesgos y mecanismos de prevención de fraude.',
+      descPt: 'Simulador interativo demonstrando fluxos de autenticação de pagamento 3D Secure, avaliação de risco e mecanismos de prevenção de fraude.',
+      link: 'https://thierry0303.github.io/Card.training/',
+      highlights: ['3DS 2.0', 'Fraud Prevention', 'Simulator'],
+      color: 'from-rose-600 to-rose-400'
     }
   ];
 
