@@ -6,6 +6,13 @@ const translations = {
   en: {
     name: 'Thierry Amiot',
     tagline: 'Payment Technology Leader & Innovator',
+    navLinks: {
+      projects: 'Projects',
+      expertise: 'Expertise',
+      experience: 'Experience',
+      academic: 'Academic',
+      about: 'About'
+    },
     hero: {
       title: 'Payment Technology',
       titleHighlight: 'Leader & Innovator',
@@ -19,7 +26,7 @@ const translations = {
       titleHighlight: 'Work Together',
       items: [
         { title: 'Industry Leader', description: '13+ years in payment technology, leading complex EMEA projects with Tier 1 institutions.' },
-        { title: 'Full-Stack Builder', description: 'From Python pipelines to React frontends. Entrepreneur with multiple live products.' },
+        { title: 'Full-Stack Developer', description: 'From Python pipelines to React frontends. Entrepreneur with multiple live products.' },
         { title: 'Academic Rigor', description: 'MSc Birkbeck, published research on blockchain adoption in payment systems.' },
         { title: 'Multilingual', description: 'Native French & Portuguese, fluent English & Spanish.' }
       ]
@@ -43,7 +50,9 @@ const translations = {
     about: {
       title: 'Get in',
       titleHighlight: 'Touch',
-      email: 'Email'
+      email: 'Email',
+      linkedinDesc: 'Connect with me on LinkedIn',
+      githubDesc: 'View my projects'
     },
     footer: {
       tagline: 'Payment technology leader, fintech innovator, and practical problem solver',
@@ -53,141 +62,168 @@ const translations = {
   fr: {
     name: 'Thierry Amiot',
     tagline: 'Leader en Technologie des Paiements & Innovateur',
+    navLinks: {
+      projects: 'Projets',
+      expertise: 'Compétences',
+      experience: 'Expérience',
+      academic: 'Académique',
+      about: 'À propos'
+    },
     hero: {
       title: 'Leader en Technologie',
       titleHighlight: 'des Paiements & Innovateur',
-      subtitle: '13+ ans à délivrer des solutions de paiement complexes et à fort impact à travers l\'Europe. Spécialiste multilingue en paiements par carte, prévention de la fraude et innovation fintech.',
-      viewWork: 'Voir Mes Travaux',
-      downloadCV: 'Télécharger CV',
-      connectLinkedIn: 'Me Connecter sur LinkedIn'
+      subtitle: '13+ ans à concevoir des solutions de paiement complexes et stratégiques à travers l\'Europe. Spécialiste multilingue en paiements par carte, prévention de la fraude et innovation en services financiers.',
+      viewWork: 'Voir mes travaux',
+      downloadCV: 'Télécharger mon CV',
+      connectLinkedIn: 'Me connecter sur LinkedIn'
     },
     achievements: {
       title: 'Pourquoi',
-      titleHighlight: 'Travailler Ensemble',
+      titleHighlight: 'Travailler ensemble',
       items: [
-        { title: 'Leader Industriel', description: '13+ ans en technologie des paiements, dirigeant des projets complexes en EMEA avec des institutions Tier 1.' },
-        { title: 'Constructeur Full-Stack', description: 'Des pipelines Python aux frontends React. Entrepreneur avec plusieurs produits en direct.' },
-        { title: 'Rigueur Académique', description: 'MSc Birkbeck, recherche publiée sur l\'adoption de la blockchain dans les systèmes de paiement.' },
-        { title: 'Multilingue', description: 'Français et portugais natifs, anglais et espagnol courants.' }
+        { title: 'Leader d\'industrie', description: '13+ ans en technologie des paiements, dirigeant des projets complexes en région EMEA avec des institutions de premier rang.' },
+        { title: 'Développeur polyvalent', description: 'Des pipelines Python aux applications React. Entrepreneur avec plusieurs projets en production.' },
+        { title: 'Rigueur académique', description: 'Master Birkbeck, recherches publiées sur l\'adoption de la technologie blockchain dans les systèmes de paiement.' },
+        { title: 'Multilingue', description: 'Français et portugais maternels, anglais et espagnol courants.' }
       ]
     },
     projects: {
       title: 'Projets',
-      titleHighlight: 'en Vedette'
+      titleHighlight: 'en vedette'
     },
     expertise: {
-      title: 'Expertise',
-      titleHighlight: 'Compétences & Connaissances'
+      title: 'Compétences',
+      titleHighlight: 'Professionnelles'
     },
     experience: {
       title: 'Leadership',
       titleHighlight: 'Professionnel'
     },
     academic: {
-      title: 'Académique',
-      titleHighlight: '& Recherche'
+      title: 'Formation',
+      titleHighlight: 'et Recherche'
     },
     about: {
       title: 'Me',
       titleHighlight: 'Contacter',
-      email: 'Email'
+      email: 'Courrier électronique',
+      linkedinDesc: 'Me connecter sur LinkedIn',
+      githubDesc: 'Consulter mes projets'
     },
     footer: {
-      tagline: 'Leader en technologie des paiements, innovateur fintech et résolveur de problèmes pratiques',
-      copyright: '© 2026 Thierry Amiot. Tous droits réservés.'
+      tagline: 'Leader en technologie des paiements, innovateur en services financiers et résolveur de problèmes complexes',
+      copyright: '© 2026 Thierry Amiot. Tous les droits réservés.'
     }
   },
   es: {
     name: 'Thierry Amiot',
     tagline: 'Líder en Tecnología de Pagos e Innovador',
+    navLinks: {
+      projects: 'Proyectos',
+      expertise: 'Competencias',
+      experience: 'Experiencia',
+      academic: 'Académico',
+      about: 'Acerca de'
+    },
     hero: {
       title: 'Líder en Tecnología',
       titleHighlight: 'de Pagos e Innovador',
-      subtitle: '13+ años entregando soluciones de pago complejas y de alto impacto en toda Europa. Especialista multilingüe en pagos con tarjeta, prevención de fraude e innovación fintech.',
-      viewWork: 'Ver Mis Trabajos',
-      downloadCV: 'Descargar CV',
+      subtitle: '13+ años diseñando soluciones de pago complejas y de alto impacto en toda Europa. Especialista multilingüe en pagos con tarjeta, prevención de fraude e innovación en tecnología financiera.',
+      viewWork: 'Ver mis trabajos',
+      downloadCV: 'Descargar mi CV',
       connectLinkedIn: 'Conectarme en LinkedIn'
     },
     achievements: {
-      title: 'Por Qué',
-      titleHighlight: 'Trabajar Juntos',
+      title: 'Por qué',
+      titleHighlight: 'Trabajar juntos',
       items: [
-        { title: 'Líder Industria', description: '13+ años en tecnología de pagos, liderando proyectos complejos en EMEA con instituciones Tier 1.' },
-        { title: 'Constructor Full-Stack', description: 'Desde pipelines Python hasta frontends React. Emprendedor con múltiples productos en directo.' },
-        { title: 'Rigor Académico', description: 'MSc Birkbeck, investigación publicada sobre adopción de blockchain en sistemas de pagos.' },
-        { title: 'Multilingüe', description: 'Francés y portugués nativos, inglés y español fluidos.' }
+        { title: 'Líder de industria', description: '13+ años en tecnología de pagos, liderando proyectos complejos en región EMEA con instituciones de primer nivel.' },
+        { title: 'Desarrollador polivalente', description: 'Desde programas Python hasta aplicaciones React. Empresario con múltiples proyectos en producción.' },
+        { title: 'Rigor académico', description: 'Máster de Birkbeck, investigación publicada sobre adopción de tecnología blockchain en sistemas de pagos.' },
+        { title: 'Multilingüe', description: 'Francés y portugués nativos, inglés y español con dominio completo.' }
       ]
     },
     projects: {
       title: 'Proyectos',
-      titleHighlight: 'Destacados'
+      titleHighlight: 'destacados'
     },
     expertise: {
-      title: 'Experiencia',
-      titleHighlight: 'Habilidades y Conocimientos'
+      title: 'Competencias',
+      titleHighlight: 'Profesionales'
     },
     experience: {
       title: 'Liderazgo',
       titleHighlight: 'Profesional'
     },
     academic: {
-      title: 'Académico',
-      titleHighlight: '& Investigación'
+      title: 'Formación',
+      titleHighlight: 'e Investigación'
     },
     about: {
       title: 'Ponte en',
       titleHighlight: 'Contacto',
-      email: 'Email'
+      email: 'Correo electrónico',
+      linkedinDesc: 'Conectarme en LinkedIn',
+      githubDesc: 'Ver mis proyectos'
     },
     footer: {
-      tagline: 'Líder en tecnología de pagos, innovador fintech y resolvedor de problemas prácticos',
+      tagline: 'Líder en tecnología de pagos, innovador en tecnología financiera y resolutor de problemas complejos',
       copyright: '© 2026 Thierry Amiot. Todos los derechos reservados.'
     }
   },
   pt: {
     name: 'Thierry Amiot',
     tagline: 'Líder em Tecnologia de Pagamentos & Inovador',
+    navLinks: {
+      projects: 'Projectos',
+      expertise: 'Competências',
+      experience: 'Experiência',
+      academic: 'Académico',
+      about: 'Sobre'
+    },
     hero: {
       title: 'Líder em Tecnologia',
       titleHighlight: 'de Pagamentos & Inovador',
-      subtitle: '13+ anos entregando soluções complexas de pagamento de alto impacto em toda a Europa. Especialista multilingue em pagamentos com cartão, prevenção de fraude e inovação fintech.',
-      viewWork: 'Ver Meus Trabalhos',
-      downloadCV: 'Descarregar CV',
+      subtitle: '13+ anos a conceber soluções de pagamento complexas e de elevado impacto em toda a Europa. Especialista multilingue em pagamentos com cartão, prevenção de fraude e inovação em tecnologia financeira.',
+      viewWork: 'Ver meus trabalhos',
+      downloadCV: 'Descarregar o meu CV',
       connectLinkedIn: 'Conectar-me no LinkedIn'
     },
     achievements: {
-      title: 'Por Que',
-      titleHighlight: 'Trabalhar Juntos',
+      title: 'Por que',
+      titleHighlight: 'Trabalhar juntos',
       items: [
-        { title: 'Líder do Setor', description: '13+ anos em tecnologia de pagamentos, liderando projetos complexos na EMEA com instituições Tier 1.' },
-        { title: 'Construtor Full-Stack', description: 'De pipelines Python a frontends React. Empreendedor com múltiplos produtos em produção.' },
-        { title: 'Rigor Académico', description: 'MSc Birkbeck, pesquisa publicada sobre adoção de blockchain em sistemas de pagamento.' },
-        { title: 'Multilingue', description: 'Francês e português nativos, inglês e espanhol fluentes.' }
+        { title: 'Líder do sector', description: '13+ anos em tecnologia de pagamentos, liderando projectos complexos na região EMEA com instituições de topo.' },
+        { title: 'Programador completo', description: 'De programas Python a aplicações React. Empresário com vários projectos em produção.' },
+        { title: 'Rigor académico', description: 'Mestrado Birkbeck, pesquisa publicada sobre adopção de tecnologia blockchain em sistemas de pagamentos.' },
+        { title: 'Multilingue', description: 'Francês e português materno, inglês e espanhol com domínio completo.' }
       ]
     },
     projects: {
-      title: 'Projetos',
-      titleHighlight: 'em Destaque'
+      title: 'Projectos',
+      titleHighlight: 'em destaque'
     },
     expertise: {
-      title: 'Experiência',
-      titleHighlight: 'Competências e Conhecimento'
+      title: 'Competências',
+      titleHighlight: 'Profissionais'
     },
     experience: {
       title: 'Liderança',
       titleHighlight: 'Profissional'
     },
     academic: {
-      title: 'Académico',
-      titleHighlight: '& Pesquisa'
+      title: 'Formação',
+      titleHighlight: 'e Pesquisa'
     },
     about: {
-      title: 'Entre em',
-      titleHighlight: 'Contacto',
-      email: 'Email'
+      title: 'Contacte-',
+      titleHighlight: 'me',
+      email: 'Correio electrónico',
+      linkedinDesc: 'Conectar-me no LinkedIn',
+      githubDesc: 'Ver meus projectos'
     },
     footer: {
-      tagline: 'Líder em tecnologia de pagamentos, inovador fintech e solucionador de problemas práticos',
+      tagline: 'Líder em tecnologia de pagamentos, inovador em tecnologia financeira e solucionador de problemas complexos',
       copyright: '© 2026 Thierry Amiot. Todos os direitos reservados.'
     }
   }
@@ -268,49 +304,81 @@ export default function ThierryPortfolio() {
 
   const projects = [
     {
-      title: language === 'en' ? 'London School Directory' : language === 'fr' ? 'Annuaire des Écoles de Londres' : language === 'es' ? 'Directorio de Escuelas de Londres' : 'Diretório de Escolas de Londres',
-      description: language === 'en' ? 'Comprehensive directory of London schools with advanced filtering, admissions data, and school performance metrics.' : language === 'fr' ? 'Répertoire complet des écoles de Londres avec filtrage avancé, données d\'admission et métriques de performance.' : language === 'es' ? 'Directorio completo de escuelas de Londres con filtrado avanzado, datos de admisión y métricas de rendimiento.' : 'Diretório completo de escolas de Londres com filtragem avançada, dados de admissão e métricas de desempenho.',
+      titleEn: 'London School Directory',
+      titleFr: 'Annuaire des Écoles de Londres',
+      titleEs: 'Directorio de Escuelas de Londres',
+      titlePt: 'Directório de Escolas de Londres',
+      descEn: 'Comprehensive directory of London schools with advanced filtering, admissions data, and school performance metrics.',
+      descFr: 'Répertoire complet des écoles de Londres avec filtrage avancé, données d\'admission et métriques de rendement scolaire.',
+      descEs: 'Directorio completo de escuelas de Londres con filtrado avanzado, datos de admisión y métricas de rendimiento escolar.',
+      descPt: 'Directório completo de escolas de Londres com filtros avançados, dados de admissão e métricas de desempenho escolar.',
       link: 'https://londonschool.directory',
       highlights: ['DfE Data', 'Advanced Filtering', 'Real-time Updates'],
       color: 'from-blue-600 to-blue-400'
     },
     {
-      title: language === 'en' ? 'London GP Directory' : language === 'fr' ? 'Annuaire des Médecins de Londres' : language === 'es' ? 'Directorio de Médicos de Londres' : 'Diretório de Médicos de Londres',
-      description: language === 'en' ? 'NHS GP surgery finder with location-based search and appointment booking information.' : language === 'fr' ? 'Moteur de recherche de cabinets médicaux NHS avec recherche géolocalisée et informations de prise de rendez-vous.' : language === 'es' ? 'Buscador de clínicas médicas del NHS con búsqueda basada en ubicación e información de citas.' : 'Localizador de consultórios médicos do NHS com busca baseada em localização e informações de agendamento.',
+      titleEn: 'London GP Directory',
+      titleFr: 'Annuaire des Médecins de Londres',
+      titleEs: 'Directorio de Médicos de Londres',
+      titlePt: 'Directório de Médicos de Londres',
+      descEn: 'NHS GP surgery finder with location-based search and appointment booking information.',
+      descFr: 'Moteur de recherche de cabinets médicaux NHS avec recherche par localisation et informations de consultation.',
+      descEs: 'Buscador de consultorios médicos del NHS con búsqueda por ubicación e información de citas.',
+      descPt: 'Localizador de consultórios médicos do NHS com busca por localização e informações de agendamento.',
       link: 'https://londongp.directory',
       highlights: ['NHS Data', 'Location Search', 'Healthcare'],
       color: 'from-green-600 to-green-400'
     },
     {
-      title: language === 'en' ? 'Card Payment Dev Docs' : language === 'fr' ? 'Docs Paiement par Carte' : language === 'es' ? 'Documentación de Pagos con Tarjeta' : 'Documentação de Pagamentos com Cartão',
-      description: language === 'en' ? 'Developer documentation for payment systems covering ISO 8583, EMV standards, and PCI DSS.' : language === 'fr' ? 'Documentation pour développeurs pour les systèmes de paiement couvrant les normes ISO 8583, EMV et PCI DSS.' : language === 'es' ? 'Documentación para desarrolladores de sistemas de pagos que cubren estándares ISO 8583, EMV y PCI DSS.' : 'Documentação para desenvolvedores de sistemas de pagamento cobrindo padrões ISO 8583, EMV e PCI DSS.',
+      titleEn: 'Card Payment Dev Docs',
+      titleFr: 'Documentation sur Paiements par Carte',
+      titleEs: 'Documentación de Pagos con Tarjeta',
+      titlePt: 'Documentação de Pagamentos com Cartão',
+      descEn: 'Developer documentation for payment systems covering ISO 8583, EMV standards, and PCI DSS.',
+      descFr: 'Documentation pour développeurs de systèmes de paiement couvrant les normes ISO 8583, EMV et PCI DSS.',
+      descEs: 'Documentación para desarrolladores de sistemas de pagos que cubren estándares ISO 8583, EMV y PCI DSS.',
+      descPt: 'Documentação para programadores de sistemas de pagamentos cobrindo padrões ISO 8583, EMV e PCI DSS.',
       link: 'https://thierry0303.github.io/paydev-docs/',
       highlights: ['Standards', 'Technical', 'Developer'],
       color: 'from-purple-600 to-purple-400'
     }
   ];
 
+  const getProjectTitle = (project) => {
+    if (language === 'en') return project.titleEn;
+    if (language === 'fr') return project.titleFr;
+    if (language === 'es') return project.titleEs;
+    if (language === 'pt') return project.titlePt;
+  };
+
+  const getProjectDesc = (project) => {
+    if (language === 'en') return project.descEn;
+    if (language === 'fr') return project.descFr;
+    if (language === 'es') return project.descEs;
+    if (language === 'pt') return project.descPt;
+  };
+
   const achievements = [
     {
-      title: language === 'en' ? 'Industry Leader' : language === 'fr' ? 'Leader Industriel' : language === 'es' ? 'Líder Industria' : 'Líder do Setor',
+      title: t.achievements.items[0].title,
       description: t.achievements.items[0].description,
       icon: Award,
       color: 'bg-amber-500/20 text-amber-300'
     },
     {
-      title: language === 'en' ? 'Full-Stack Builder' : language === 'fr' ? 'Constructeur Full-Stack' : language === 'es' ? 'Constructor Full-Stack' : 'Construtor Full-Stack',
+      title: t.achievements.items[1].title,
       description: t.achievements.items[1].description,
       icon: Code2,
       color: 'bg-blue-500/20 text-blue-300'
     },
     {
-      title: language === 'en' ? 'Academic Rigor' : language === 'fr' ? 'Rigueur Académique' : language === 'es' ? 'Rigor Académico' : 'Rigor Académico',
+      title: t.achievements.items[2].title,
       description: t.achievements.items[2].description,
       icon: BookOpen,
       color: 'bg-purple-500/20 text-purple-300'
     },
     {
-      title: language === 'en' ? 'Multilingual' : language === 'fr' ? 'Multilingue' : language === 'es' ? 'Multilingüe' : 'Multilingue',
+      title: t.achievements.items[3].title,
       description: t.achievements.items[3].description,
       icon: Zap,
       color: 'bg-green-500/20 text-green-300'
@@ -319,66 +387,180 @@ export default function ThierryPortfolio() {
 
   const skills = [
     { 
-      category: language === 'en' ? 'Payment Systems' : language === 'fr' ? 'Systèmes de Paiement' : language === 'es' ? 'Sistemas de Pago' : 'Sistemas de Pagamento',
+      categoryEn: 'Payment Systems',
+      categoryFr: 'Systèmes de paiement',
+      categoryEs: 'Sistemas de pago',
+      categoryPt: 'Sistemas de pagamento',
       skills: ['ISO 8583', 'EMV', 'NFC', '3DS 2.0', 'PCI DSS', 'Tokenization'] 
     },
     { 
-      category: language === 'en' ? 'Technical Leadership' : language === 'fr' ? 'Leadership Technique' : language === 'es' ? 'Liderazgo Técnico' : 'Liderança Técnica',
+      categoryEn: 'Technical Leadership',
+      categoryFr: 'Leadership technique',
+      categoryEs: 'Liderazgo técnico',
+      categoryPt: 'Liderança técnica',
       skills: ['Project Management', 'Team Leadership', 'Agile', 'Cross-functional'] 
     },
     { 
-      category: language === 'en' ? 'Frontend' : language === 'fr' ? 'Frontend' : language === 'es' ? 'Frontend' : 'Frontend',
+      categoryEn: 'Frontend Development',
+      categoryFr: 'Développement d\'interface',
+      categoryEs: 'Desarrollo de interfaz',
+      categoryPt: 'Desenvolvimento de interface',
       skills: ['React', 'Tailwind CSS', 'JavaScript', 'Responsive Design'] 
     },
     { 
-      category: language === 'en' ? 'Backend' : language === 'fr' ? 'Backend' : language === 'es' ? 'Backend' : 'Backend',
+      categoryEn: 'Backend Development',
+      categoryFr: 'Développement serveur',
+      categoryEs: 'Desarrollo de servidor',
+      categoryPt: 'Desenvolvimento de servidor',
       skills: ['Python', 'Data Pipelines', 'GitHub Actions', 'Automation'] 
     }
   ];
 
+  const getSkillCategory = (skill) => {
+    if (language === 'en') return skill.categoryEn;
+    if (language === 'fr') return skill.categoryFr;
+    if (language === 'es') return skill.categoryEs;
+    if (language === 'pt') return skill.categoryPt;
+  };
+
   const experiences = [
     {
-      title: language === 'en' ? 'Customer Success Manager (CSM)' : language === 'fr' ? 'Responsable du Succès Client (CSM)' : language === 'es' ? 'Gerente de Éxito del Cliente (CSM)' : 'Gestor de Sucesso do Cliente (CSM)',
+      titleEn: 'Customer Success Manager (CSM)',
+      titleFr: 'Responsable de Succès Client',
+      titleEs: 'Gerente de Éxito del Cliente',
+      titlePt: 'Gestor de Sucesso do Cliente',
       company: 'Outseer (RSA Security)',
       period: 'November 2021 – Present',
-      focus: language === 'en' ? '3DS Fraud Prevention Solutions' : language === 'fr' ? 'Solutions de Prévention de Fraude 3DS' : language === 'es' ? 'Soluciones de Prevención de Fraude 3DS' : 'Soluções de Prevenção de Fraude 3DS',
-      highlights: [
-        language === 'en' ? 'Strategic account management of Tier 1 clients across EMEA' : language === 'fr' ? 'Gestion stratégique des comptes clients Tier 1 dans toute l\'EMEA' : language === 'es' ? 'Gestión estratégica de cuentas de clientes Tier 1 en toda la EMEA' : 'Gestão estratégica de contas de clientes Tier 1 em toda a EMEA',
-        language === 'en' ? 'Lead complex API integrations and 3DS 2.0 implementations' : language === 'fr' ? 'Diriger les intégrations API complexes et les implémentations 3DS 2.0' : language === 'es' ? 'Liderar integraciones API complejas e implementaciones 3DS 2.0' : 'Liderar integrações de API complexas e implementações 3DS 2.0',
-        language === 'en' ? 'Coordinate cross-functional teams on fraud prevention' : language === 'fr' ? 'Coordonner les équipes interfonctionnelles sur la prévention de la fraude' : language === 'es' ? 'Coordinar equipos multifuncionales en prevención de fraude' : 'Coordenar equipes multifuncionais sobre prevenção de fraude',
-        language === 'en' ? 'Maintain high customer satisfaction metrics' : language === 'fr' ? 'Maintenir des métriques élevées de satisfaction client' : language === 'es' ? 'Mantener métricas altas de satisfacción del cliente' : 'Manter métricas altas de satisfação do cliente'
+      focusEn: '3DS Fraud Prevention Solutions',
+      focusFr: 'Solutions de prévention de fraude 3DS',
+      focusEs: 'Soluciones de prevención de fraude 3DS',
+      focusPt: 'Soluções de prevenção de fraude 3DS',
+      highlightsEn: [
+        'Strategic account management of Tier 1 clients across EMEA',
+        'Lead complex API integrations and 3DS 2.0 implementations',
+        'Coordinate cross-functional teams on fraud prevention',
+        'Maintain high customer satisfaction metrics'
+      ],
+      highlightsFr: [
+        'Gestion stratégique des comptes clients de premier rang dans toute la région EMEA',
+        'Diriger les intégrations API complexes et les implémentations 3DS 2.0',
+        'Coordonner les équipes interfonctionnelles sur la prévention de la fraude',
+        'Maintenir des métriques élevées de satisfaction client'
+      ],
+      highlightsEs: [
+        'Gestión estratégica de cuentas de clientes de primer nivel en toda la región EMEA',
+        'Liderar integraciones API complejas e implementaciones 3DS 2.0',
+        'Coordinar equipos multifuncionales en prevención de fraude',
+        'Mantener métricas altas de satisfacción del cliente'
+      ],
+      highlightsPt: [
+        'Gestão estratégica de contas de clientes de topo em toda a região EMEA',
+        'Liderar integrações API complexas e implementações 3DS 2.0',
+        'Coordenar equipas multifuncionais sobre prevenção de fraude',
+        'Manter métricas elevadas de satisfação do cliente'
       ]
     },
     {
-      title: language === 'en' ? 'Senior Project Manager' : language === 'fr' ? 'Chef de Projet Senior' : language === 'es' ? 'Gerente de Proyecto Senior' : 'Gerente de Projeto Sênior',
+      titleEn: 'Senior Project Manager',
+      titleFr: 'Chef de Projet Senior',
+      titleEs: 'Gerente de Proyecto Senior',
+      titlePt: 'Gestor de Projecto Sénior',
       company: 'Diners Club / Discover Financial Services',
       period: 'May 2017 – November 2021',
-      focus: language === 'en' ? 'Global Acquirer Onboarding' : language === 'fr' ? 'Intégration Globale des Acquéreurs' : language === 'es' ? 'Integración Global de Adquirentes' : 'Integração Global de Adquirentes',
-      highlights: [
-        language === 'en' ? 'Led Credit Mutuel Arkea partnership (NASDAQ listed)' : language === 'fr' ? 'Partenariat Credit Mutuel Arkea (listé NASDAQ)' : language === 'es' ? 'Lideró asociación Credit Mutuel Arkea (cotizada en NASDAQ)' : 'Liderou parceria Credit Mutuel Arkea (listada em NASDAQ)',
-        language === 'en' ? 'Enabled La Banque Postale Discover acceptance' : language === 'fr' ? 'Activé l\'acceptation Discover de La Banque Postale' : language === 'es' ? 'Habilitó aceptación de Discover de La Banque Postale' : 'Ativou aceitação do Discover da La Banque Postale',
-        language === 'en' ? 'Led onboarding of 4 Tier 1 acquirers' : language === 'fr' ? 'Dirigé l\'intégration de 4 acquéreurs Tier 1' : language === 'es' ? 'Lideró incorporación de 4 adquirentes Tier 1' : 'Liderou integração de 4 adquirentes Tier 1',
-        language === 'en' ? 'Managed strategic partnerships across Europe' : language === 'fr' ? 'Partenariats stratégiques gérés en Europe' : language === 'es' ? 'Partnerships estratégicos gestionados en toda Europa' : 'Parcerias estratégicas gerenciadas em toda a Europa'
+      focusEn: 'Global Acquirer Onboarding',
+      focusFr: 'Intégration globale d\'acquéreurs',
+      focusEs: 'Integración global de adquirentes',
+      focusPt: 'Integração global de adquirentes',
+      highlightsEn: [
+        'Led Credit Mutuel Arkea partnership (NASDAQ listed)',
+        'Enabled La Banque Postale Discover acceptance',
+        'Led onboarding of 4 Tier 1 acquirers',
+        'Managed strategic partnerships across Europe'
+      ],
+      highlightsFr: [
+        'Partenariat Credit Mutuel Arkea (listé sur NASDAQ)',
+        'Activé l\'acceptation Discover de La Banque Postale',
+        'Dirigé l\'intégration de 4 acquéreurs de premier rang',
+        'Partnerships stratégiques gérés en Europe'
+      ],
+      highlightsEs: [
+        'Lideró asociación Credit Mutuel Arkea (cotizada en NASDAQ)',
+        'Habilitó aceptación de Discover de La Banque Postale',
+        'Lideró incorporación de 4 adquirentes de primer nivel',
+        'Partnerships estratégicos gestionados en toda Europa'
+      ],
+      highlightsPt: [
+        'Liderou parceria Credit Mutuel Arkea (listada em NASDAQ)',
+        'Ativou aceitação do Discover da La Banque Postale',
+        'Liderou integração de 4 adquirentes de topo',
+        'Parcerias estratégicas gerenciadas em toda a Europa'
       ]
     }
   ];
 
+  const getExperienceTitle = (exp) => {
+    if (language === 'en') return exp.titleEn;
+    if (language === 'fr') return exp.titleFr;
+    if (language === 'es') return exp.titleEs;
+    if (language === 'pt') return exp.titlePt;
+  };
+
+  const getExperienceFocus = (exp) => {
+    if (language === 'en') return exp.focusEn;
+    if (language === 'fr') return exp.focusFr;
+    if (language === 'es') return exp.focusEs;
+    if (language === 'pt') return exp.focusPt;
+  };
+
+  const getExperienceHighlights = (exp) => {
+    if (language === 'en') return exp.highlightsEn;
+    if (language === 'fr') return exp.highlightsFr;
+    if (language === 'es') return exp.highlightsEs;
+    if (language === 'pt') return exp.highlightsPt;
+  };
+
   const academic = [
     {
-      title: language === 'en' ? 'MSc International Management' : language === 'fr' ? 'MSc Gestion Internationale' : language === 'es' ? 'MSc Gestión Internacional' : 'MSc Gestão Internacional',
+      titleEn: 'MSc International Management',
+      titleFr: 'Master Gestion Internationale',
+      titleEs: 'Máster Gestión Internacional',
+      titlePt: 'Mestrado Gestão Internacional',
       institution: 'Birkbeck, University of London',
       year: '2016–2018',
-      details: language === 'en' ? 'Dissertation on blockchain adoption in digital payments.' : language === 'fr' ? 'Dissertation sur l\'adoption de la blockchain dans les paiements numériques.' : language === 'es' ? 'Disertación sobre adopción de blockchain en pagos digitales.' : 'Dissertação sobre adoção de blockchain em pagamentos digitais.',
+      detailsEn: 'Dissertation on blockchain adoption in digital payments.',
+      detailsFr: 'Dissertation sur l\'adoption de la technologie blockchain dans les paiements numériques.',
+      detailsEs: 'Disertación sobre adopción de tecnología blockchain en pagos digitales.',
+      detailsPt: 'Dissertação sobre adopção de tecnologia blockchain em pagamentos digitais.',
       highlights: ['Innovation Theory', 'PSD2/GDPR', 'Industry Research']
     },
     {
-      title: language === 'en' ? 'BA Management + Languages' : language === 'fr' ? 'BA Gestion + Langues' : language === 'es' ? 'BA Gestión + Idiomas' : 'BA Gestão + Idiomas',
-      institution: language === 'en' ? 'Portugal' : language === 'fr' ? 'Portugal' : language === 'es' ? 'Portugal' : 'Portugal',
+      titleEn: 'BA Management + Languages',
+      titleFr: 'Licence Gestion + Langues',
+      titleEs: 'Licenciatura Gestión + Idiomas',
+      titlePt: 'Licenciatura Gestão + Idiomas',
+      institution: 'Portugal',
       year: '2005–2010',
-      details: language === 'en' ? 'Business and language studies with Erasmus exchange.' : language === 'fr' ? 'Études commerciales et linguistiques avec échange Erasmus.' : language === 'es' ? 'Estudios comerciales e idiomas con intercambio Erasmus.' : 'Estudos comerciais e linguísticos com intercâmbio Erasmus.',
+      detailsEn: 'Business and language studies with Erasmus exchange.',
+      detailsFr: 'Études commerciales et linguistiques avec échange Erasmus.',
+      detailsEs: 'Estudios comerciales e idiomas con intercambio Erasmus.',
+      detailsPt: 'Estudos comerciais e linguísticos com intercâmbio Erasmus.',
       highlights: ['International Education', 'Language Fluency']
     }
   ];
+
+  const getAcademicTitle = (item) => {
+    if (language === 'en') return item.titleEn;
+    if (language === 'fr') return item.titleFr;
+    if (language === 'es') return item.titleEs;
+    if (language === 'pt') return item.titlePt;
+  };
+
+  const getAcademicDetails = (item) => {
+    if (language === 'en') return item.detailsEn;
+    if (language === 'fr') return item.detailsFr;
+    if (language === 'es') return item.detailsEs;
+    if (language === 'pt') return item.detailsPt;
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-gray-100 overflow-x-hidden">
@@ -407,13 +589,12 @@ export default function ThierryPortfolio() {
                   activeSection === item ? 'text-amber-300' : 'text-gray-400 hover:text-amber-300'
                 }`}
               >
-                {item}
+                {t.navLinks[item]}
               </motion.button>
             ))}
           </div>
 
           <div className="flex items-center gap-4">
-            {/* Language Toggle */}
             <motion.div 
               whileHover={{ scale: 1.05 }}
               className="flex gap-2 bg-slate-800/50 rounded-lg p-2 border border-slate-700"
@@ -455,7 +636,7 @@ export default function ThierryPortfolio() {
                 onClick={() => scrollToSection(item)}
                 className="block w-full text-left py-2 capitalize text-gray-400 hover:text-amber-300"
               >
-                {item}
+                {t.navLinks[item]}
               </motion.button>
             ))}
           </motion.div>
@@ -602,8 +783,8 @@ export default function ThierryPortfolio() {
                 whileHover={{ y: -15 }}
                 className="p-8 rounded-xl bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-700 hover:border-amber-400/50 transition"
               >
-                <h3 className="text-xl font-bold mb-3 text-white hover:text-amber-300 transition">{project.title}</h3>
-                <p className="text-gray-400 mb-4">{project.description}</p>
+                <h3 className="text-xl font-bold mb-3 text-white hover:text-amber-300 transition">{getProjectTitle(project)}</h3>
+                <p className="text-gray-400 mb-4">{getProjectDesc(project)}</p>
                 
                 <div className="flex flex-wrap gap-2">
                   {project.highlights.map((tag, i) => (
@@ -640,7 +821,7 @@ export default function ThierryPortfolio() {
                 variants={fadeInUp}
                 className="p-8 rounded-xl bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-700"
               >
-                <h3 className="text-xl font-bold mb-4 text-amber-300">{skillGroup.category}</h3>
+                <h3 className="text-xl font-bold mb-4 text-amber-300">{getSkillCategory(skillGroup)}</h3>
                 <div className="flex flex-wrap gap-3">
                   {skillGroup.skills.map((skill, i) => (
                     <span key={i} className="px-4 py-2 rounded-lg bg-amber-400/10 text-amber-300 border border-amber-400/30">
@@ -678,16 +859,16 @@ export default function ThierryPortfolio() {
               >
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-6 gap-3">
                   <div className="flex-1">
-                    <h3 className="text-xl md:text-2xl font-bold text-white">{exp.title}</h3>
+                    <h3 className="text-xl md:text-2xl font-bold text-white">{getExperienceTitle(exp)}</h3>
                     <p className="text-amber-300 font-semibold text-sm md:text-base">{exp.company}</p>
                   </div>
                   <span className="text-gray-500 text-sm md:text-base">{exp.period}</span>
                 </div>
                 
-                <p className="text-gray-400 mb-4 italic text-sm md:text-base">{exp.focus}</p>
+                <p className="text-gray-400 mb-4 italic text-sm md:text-base">{getExperienceFocus(exp)}</p>
                 
                 <ul className="space-y-2">
-                  {exp.highlights.map((highlight, i) => (
+                  {getExperienceHighlights(exp).map((highlight, i) => (
                     <motion.li
                       key={i}
                       className="text-gray-300 text-sm md:text-base flex items-start gap-3"
@@ -715,7 +896,7 @@ export default function ThierryPortfolio() {
             variants={fadeInUp}
             className="text-3xl md:text-4xl font-bold mb-12 text-center"
           >
-            <span className="bg-gradient-to-r from-amber-300 to-yellow-400 bg-clip-text text-transparent">{t.academic.title}</span>
+            <span className="bg-gradient-to-r from-amber-300 to-yellow-400 bg-clip-text text-transparent">{t.academic.title}</span> {t.academic.titleHighlight}
           </motion.h2>
           
           <div className="space-y-8">
@@ -726,12 +907,12 @@ export default function ThierryPortfolio() {
                 className="p-8 rounded-xl bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-700"
               >
                 <div className="mb-4">
-                  <h3 className="text-2xl font-bold text-white">{item.title}</h3>
+                  <h3 className="text-2xl font-bold text-white">{getAcademicTitle(item)}</h3>
                   <p className="text-purple-300 font-semibold">{item.institution}</p>
                   <p className="text-gray-500">{item.year}</p>
                 </div>
                 
-                <p className="text-gray-400 mb-4">{item.details}</p>
+                <p className="text-gray-400 mb-4">{getAcademicDetails(item)}</p>
                 
                 <div className="flex flex-wrap gap-2">
                   {item.highlights.map((tag, i) => (
@@ -772,7 +953,7 @@ export default function ThierryPortfolio() {
             >
               <Linkedin className="text-blue-400 mb-4" size={40} />
               <h3 className="text-xl font-bold text-white hover:text-blue-300">LinkedIn</h3>
-              <p className="text-gray-400 mt-2">{language === 'en' ? 'Connect with me on LinkedIn' : language === 'fr' ? 'Connectez-vous avec moi sur LinkedIn' : language === 'es' ? 'Conéctate conmigo en LinkedIn' : 'Conecte-se comigo no LinkedIn'}</p>
+              <p className="text-gray-400 mt-2">{t.about.linkedinDesc}</p>
             </motion.a>
 
             <motion.a
@@ -785,7 +966,7 @@ export default function ThierryPortfolio() {
             >
               <Github className="text-gray-400 mb-4" size={40} />
               <h3 className="text-xl font-bold text-white hover:text-gray-300">GitHub</h3>
-              <p className="text-gray-400 mt-2">{language === 'en' ? 'View my projects' : language === 'fr' ? 'Voir mes projets' : language === 'es' ? 'Ver mis proyectos' : 'Ver meus projetos'}</p>
+              <p className="text-gray-400 mt-2">{t.about.githubDesc}</p>
             </motion.a>
           </div>
 
