@@ -1104,13 +1104,13 @@ export default function ThierryPortfolio() {
           </div>
 
           <motion.a
-            href="mailto:thierry1981@protonmail.com"
+            href="mailto:thierry@thierryamiot.com"
             variants={fadeInUp}
             className="block text-center p-8 rounded-xl bg-gradient-to-r from-amber-400/20 to-yellow-400/20 border border-amber-400/50"
           >
             <Mail className="text-amber-300 mb-4 mx-auto" size={40} />
             <h3 className="text-xl font-bold text-white mb-2">{t.about.email}</h3>
-            <p className="text-amber-300 hover:text-amber-200">thierry1981@protonmail.com</p>
+            <p className="text-amber-300 hover:text-amber-200">thierry@thierryamiot.com</p>
           </motion.a>
         </motion.div>
       </section>
@@ -1142,7 +1142,7 @@ export default function ThierryPortfolio() {
                 <Github size={28} />
               </motion.a>
               <motion.a
-                href="mailto:thierry1981@protonmail.com"
+                href="mailto:thierry@thierryamiot.com"
                 whileHover={{ scale: 1.2 }}
                 className="text-gray-400 hover:text-amber-300 transition cursor-pointer p-2 rounded-lg hover:bg-amber-400/10"
               >
