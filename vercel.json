@@ -1,4 +1,11 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  ...
+  "rewrites": [
+    {
+      "source": "/:path((?!sitemap\\.xml|robots\\.txt|assets/.*|.*\\.\\w+$).*)",
+      "destination": "/index.html"
+    }
+  ]
 }
