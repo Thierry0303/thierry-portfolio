@@ -695,7 +695,7 @@ export default function ThierryPortfolio() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-gray-100 overflow-x-hidden">
-      {
+      
       <Helmet>
   <title>Thierry Amiot - Payment Technology Leader | 3DS & Fintech Expert</title>
   <meta name="description" content="Payment Technology Leader with 13+ years in card payments, 3DS, fraud prevention. CSM at Outseer. Available for consulting." />
