@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ExternalLink, Github, Linkedin, Mail, BookOpen, Zap, Target, Award, Code2, Globe } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 
 const translations = {
   en: {
@@ -694,6 +695,50 @@ export default function ThierryPortfolio() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-gray-100 overflow-x-hidden">
+      {
+      <Helmet>
+  <title>Thierry Amiot - Payment Technology Leader | 3DS & Fintech Expert</title>
+  <meta name="description" content="Payment Technology Leader with 13+ years in card payments, 3DS, fraud prevention. CSM at Outseer. Available for consulting." />
+  <meta name="keywords" content="payment technology, 3DS specialist, fintech, fraud prevention, EMV, PCI DSS, London" />
+  <meta name="author" content="Thierry Amiot" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <link rel="canonical" href="https://thierryamiot.com/" />
+  
+  {/* Hreflang for multilingual */}
+  <link rel="alternate" hrefLang="en" href="https://thierryamiot.com/" />
+  <link rel="alternate" hrefLang="fr" href="https://thierryamiot.com/?lang=fr" />
+  <link rel="alternate" hrefLang="es" href="https://thierryamiot.com/?lang=es" />
+  <link rel="alternate" hrefLang="pt" href="https://thierryamiot.com/?lang=pt" />
+  <link rel="alternate" hrefLang="x-default" href="https://thierryamiot.com/" />
+  
+  {/* Open Graph */}
+  <meta property="og:title" content="Thierry Amiot - Payment Technology Leader | 3DS & Fintech Expert" />
+  <meta property="og:description" content="13+ years in payment technology. CSM at Outseer. Specialist in 3DS, fraud prevention, and fintech innovation." />
+  <meta property="og:url" content="https://thierryamiot.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://thierryamiot.com/og-image.png" />
+  
+  {/* Twitter */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Thierry Amiot - Payment Technology Leader" />
+  <meta name="twitter:description" content="13+ years in payment technology, 3DS, fraud prevention. CSM at Outseer." />
+  
+  {/* Schema Markup */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Thierry Amiot",
+      "url": "https://thierryamiot.com",
+      "jobTitle": "Payment Technology Leader",
+      "email": "thierry@thierryamiot.com",
+      "sameAs": [
+        "https://www.linkedin.com/in/thierry-amiot-b92a7437",
+        "https://github.com/thierry0303"
+      ]
+    })}
+  </script>
+</Helmet>
       
       <motion.nav 
         initial={{ y: -100 }}
