@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+  <!-- HOME PAGE - Main entry point -->
+  <url>
+    <loc>https://thierryamiot.com/</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thierryamiot.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thierryamiot.com/?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://thierryamiot.com/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://thierryamiot.com/?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thierryamiot.com/" />
+  </url>
+
+  <!-- LANGUAGE-SPECIFIC HOME PAGES -->
+  <url>
+    <loc>https://thierryamiot.com/?lang=fr</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://thierryamiot.com/?lang=es</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://thierryamiot.com/?lang=pt</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- PROJECTS - HIGH VALUE PAGES -->
+  <!-- London School Directory -->
+  <url>
+    <loc>https://thierryamiot.com/projects/london-school-directory</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>bi-weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- London GP Directory -->
+  <url>
+    <loc>https://thierryamiot.com/projects/london-gp-directory</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>bi-weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 3DS Interactive Simulator -->
+  <url>
+    <loc>https://thierryamiot.com/projects/3ds-simulator</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Payment 101 Training -->
+  <url>
+    <loc>https://thierryamiot.com/projects/payment-training</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Payment Dev Docs -->
+  <url>
+    <loc>https://thierryamiot.com/projects/payment-dev-docs</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- CV DOWNLOADS - KEY CONVERSION PAGES -->
+  <url>
+    <loc>https://thierryamiot.com/cv</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ABOUT PAGE -->
+  <url>
+    <loc>https://thierryamiot.com/about</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>quarterly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- CONTACT PAGE -->
+  <url>
+    <loc>https://thierryamiot.com/contact</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- PROFESSIONAL PAGES -->
+  <url>
+    <loc>https://thierryamiot.com/experience</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>quarterly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://thierryamiot.com/skills</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>quarterly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- BLOG/ARTICLES (IF APPLICABLE) -->
+  <url>
+    <loc>https://thierryamiot.com/blog</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- SEO/SUPPORT PAGES -->
+  <url>
+    <loc>https://thierryamiot.com/privacy</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://thierryamiot.com/terms</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>

@@ -1,0 +1,42 @@
+# thierryamiot.com - robots.txt
+# Last updated: 2026-07-06
+
+# Default rules for all crawlers
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /node_modules/
+Disallow: /private/
+Disallow: /?utm_*
+Disallow: /*?*sort=
+Disallow: /search?
+Disallow: /404
+Disallow: /500
+
+# Crawl delay (optional - be respectful to server)
+Crawl-delay: 1
+
+# Google-specific rules
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5
+
+# Bing-specific rules
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Block bad bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# Sitemap location - CRITICAL for SEO
+Sitemap: https://thierryamiot.com/sitemap.xml
