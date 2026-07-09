@@ -7,6 +7,10 @@ const translations = {
   en: {
     name: 'Thierry Amiot',
     tagline: 'Payment Technology Leader & Innovator',
+    seo: {
+      title: 'Thierry Amiot - Payment Technology Leader | 3DS & Fintech Expert',
+      description: 'Payment Technology Leader with 13+ years in card payments, 3DS and fraud prevention. CSM at Outseer. Based in London, working across EMEA.'
+    },
     navLinks: {
       projects: 'Projects',
       expertise: 'Expertise',
@@ -82,6 +86,10 @@ const translations = {
   fr: {
     name: 'Thierry Amiot',
     tagline: 'Expert en Technologies de Paiement & Innovateur',
+    seo: {
+      title: 'Thierry Amiot - Expert en Technologies de Paiement | 3DS & Fintech',
+      description: 'Expert en technologies de paiement : plus de 13 ans en paiements par carte, 3DS et prévention de la fraude. CSM chez Outseer. Basé à Londres, actif dans toute la zone EMEA.'
+    },
     navLinks: {
       projects: 'Projets',
       expertise: 'Compétences',
@@ -157,6 +165,10 @@ const translations = {
   es: {
     name: 'Thierry Amiot',
     tagline: 'Experto en Tecnología de Pagos e Innovador',
+    seo: {
+      title: 'Thierry Amiot - Experto en Tecnología de Pagos | 3DS & Fintech',
+      description: 'Experto en tecnología de pagos: más de 13 años en pagos con tarjeta, 3DS y prevención de fraude. CSM en Outseer. Con base en Londres, activo en toda la región EMEA.'
+    },
     navLinks: {
       projects: 'Proyectos',
       expertise: 'Competencias',
@@ -232,6 +244,10 @@ const translations = {
   pt: {
     name: 'Thierry Amiot',
     tagline: 'Especialista em Tecnologias de Pagamento & Inovador',
+    seo: {
+      title: 'Thierry Amiot - Especialista em Tecnologias de Pagamento | 3DS & Fintech',
+      description: 'Especialista em tecnologias de pagamento: mais de 13 anos em pagamentos com cartão, 3DS e prevenção de fraude. CSM na Outseer. Baseado em Londres, activo em toda a EMEA.'
+    },
     navLinks: {
       projects: 'Projectos',
       expertise: 'Competências',
@@ -310,37 +326,42 @@ export default function ThierryPortfolio() {
   const [scrollY, setScrollY] = useState(0);
   const [activeSection, setActiveSection] = useState('home');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [language, setLanguage] = useState('en');
+  const SUPPORTED_LANGS = ['en', 'fr', 'es', 'pt'];
 
-  // Detect browser language on mount
+  const getInitialLanguage = () => {
+    // 1. URL ?lang= parameter (shared and indexed links)
+    const urlLang = new URLSearchParams(window.location.search).get('lang');
+    if (SUPPORTED_LANGS.includes(urlLang)) return urlLang;
+    // 2. Language previously chosen by the visitor
+    const saved = localStorage.getItem('preferredLanguage');
+    if (SUPPORTED_LANGS.includes(saved)) return saved;
+    // 3. Browser language
+    const candidates = [navigator.language, ...(navigator.languages || [])];
+    for (const lang of candidates) {
+      const code = (lang || '').split('-')[0].toLowerCase();
+      if (SUPPORTED_LANGS.includes(code)) return code;
+    }
+    return 'en';
+  };
+
+  const [language, setLanguage] = useState(getInitialLanguage);
+
+  const changeLanguage = (lang) => {
+    setLanguage(lang);
+    localStorage.setItem('preferredLanguage', lang);
+    const url = new URL(window.location.href);
+    if (lang === 'en') {
+      url.searchParams.delete('lang');
+    } else {
+      url.searchParams.set('lang', lang);
+    }
+    window.history.replaceState({}, '', url);
+  };
+
+  // Keep <html lang> in sync (accessibility + SEO)
   useEffect(() => {
-    const detectBrowserLanguage = () => {
-      // Get browser language(s)
-      const browserLanguage = navigator.language || navigator.userLanguage;
-      const browserLanguages = navigator.languages || [];
-      
-      // Extract language code (e.g., 'es' from 'es-ES')
-      const primaryLang = browserLanguage.split('-')[0].toLowerCase();
-      
-      // Map to supported languages
-      if (primaryLang === 'es') return 'es';
-      if (primaryLang === 'fr') return 'fr';
-      if (primaryLang === 'pt') return 'pt';
-      
-      // Check additional languages array
-      for (let lang of browserLanguages) {
-        const langCode = lang.split('-')[0].toLowerCase();
-        if (langCode === 'es') return 'es';
-        if (langCode === 'fr') return 'fr';
-        if (langCode === 'pt') return 'pt';
-      }
-      
-      // Default to English
-      return 'en';
-    };
-    
-    setLanguage(detectBrowserLanguage());
-  }, []);
+    document.documentElement.lang = language;
+  }, [language]);
 
   const t = translations[language];
 
@@ -697,48 +718,57 @@ export default function ThierryPortfolio() {
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-gray-100 overflow-x-hidden">
       
       <Helmet>
-  <title>Thierry Amiot - Payment Technology Leader | 3DS & Fintech Expert</title>
-  <meta name="description" content="Payment Technology Leader with 13+ years in card payments, 3DS, fraud prevention. CSM at Outseer. Available for consulting." />
-  <meta name="keywords" content="payment technology, 3DS specialist, fintech, fraud prevention, EMV, PCI DSS, London" />
-  <meta name="author" content="Thierry Amiot" />
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-  <link rel="canonical" href="https://thierryamiot.com/" />
-  
-  {/* Hreflang for multilingual */}
-  <link rel="alternate" hrefLang="en" href="https://thierryamiot.com/" />
-  <link rel="alternate" hrefLang="fr" href="https://thierryamiot.com/?lang=fr" />
-  <link rel="alternate" hrefLang="es" href="https://thierryamiot.com/?lang=es" />
-  <link rel="alternate" hrefLang="pt" href="https://thierryamiot.com/?lang=pt" />
-  <link rel="alternate" hrefLang="x-default" href="https://thierryamiot.com/" />
-  
-  {/* Open Graph */}
-  <meta property="og:title" content="Thierry Amiot - Payment Technology Leader | 3DS & Fintech Expert" />
-  <meta property="og:description" content="13+ years in payment technology. CSM at Outseer. Specialist in 3DS, fraud prevention, and fintech innovation." />
-  <meta property="og:url" content="https://thierryamiot.com/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://thierryamiot.com/og-image.png" />
-  
-  {/* Twitter */}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Thierry Amiot - Payment Technology Leader" />
-  <meta name="twitter:description" content="13+ years in payment technology, 3DS, fraud prevention. CSM at Outseer." />
-  
-  {/* Schema Markup */}
-  <script type="application/ld+json">
-    {JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Thierry Amiot",
-      "url": "https://thierryamiot.com",
-      "jobTitle": "Payment Technology Leader",
-      "email": "thierry@thierryamiot.com",
-      "sameAs": [
-        "https://www.linkedin.com/in/thierry-amiot-b92a7437",
-        "https://github.com/thierry0303"
-      ]
-    })}
-  </script>
-</Helmet>
+        <title>{t.seo.title}</title>
+        <meta name="description" content={t.seo.description} />
+        <meta name="author" content="Thierry Amiot" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <link rel="canonical" href={language === 'en' ? 'https://thierryamiot.com/' : `https://thierryamiot.com/?lang=${language}`} />
+
+        {/* Hreflang for multilingual */}
+        <link rel="alternate" hrefLang="en" href="https://thierryamiot.com/" />
+        <link rel="alternate" hrefLang="fr" href="https://thierryamiot.com/?lang=fr" />
+        <link rel="alternate" hrefLang="es" href="https://thierryamiot.com/?lang=es" />
+        <link rel="alternate" hrefLang="pt" href="https://thierryamiot.com/?lang=pt" />
+        <link rel="alternate" hrefLang="x-default" href="https://thierryamiot.com/" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content={t.seo.title} />
+        <meta property="og:description" content={t.seo.description} />
+        <meta property="og:url" content={language === 'en' ? 'https://thierryamiot.com/' : `https://thierryamiot.com/?lang=${language}`} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://thierryamiot.com/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:locale" content={{ en: 'en_GB', fr: 'fr_FR', es: 'es_ES', pt: 'pt_PT' }[language]} />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={t.seo.title} />
+        <meta name="twitter:description" content={t.seo.description} />
+        <meta name="twitter:image" content="https://thierryamiot.com/og-image.png" />
+
+        {/* Schema Markup */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Thierry Amiot",
+            "url": "https://thierryamiot.com",
+            "image": "https://thierryamiot.com/og-image.png",
+            "jobTitle": "Payment Technology Leader",
+            "worksFor": { "@type": "Organization", "name": "Outseer (RSA Security)" },
+            "alumniOf": { "@type": "CollegeOrUniversity", "name": "Birkbeck, University of London" },
+            "knowsLanguage": ["en", "fr", "es", "pt"],
+            "knowsAbout": ["Card Payments", "3D Secure", "Fraud Prevention", "EMV", "ISO 8583", "PCI DSS", "Fintech"],
+            "email": "mailto:thierry@thierryamiot.com",
+            "address": { "@type": "PostalAddress", "addressLocality": "London", "addressCountry": "GB" },
+            "sameAs": [
+              "https://www.linkedin.com/in/thierry-amiot-b92a7437",
+              "https://github.com/thierry0303"
+            ]
+          })}
+        </script>
+      </Helmet>
       
       <motion.nav 
         initial={{ y: -100 }}
@@ -777,7 +807,10 @@ export default function ThierryPortfolio() {
               {['en', 'fr', 'es', 'pt'].map((lang) => (
                 <button
                   key={lang}
-                  onClick={() => setLanguage(lang)}
+                  onClick={() => changeLanguage(lang)}
+                  lang={lang}
+                  aria-pressed={language === lang}
+                  aria-label={`Switch language to ${lang.toUpperCase()}`}
                   className={`px-2 py-1 rounded text-xs font-semibold transition ${
                     language === lang
                       ? 'bg-amber-400 text-slate-900'
@@ -792,6 +825,8 @@ export default function ThierryPortfolio() {
             <motion.button
               whileHover={{ scale: 1.1 }}
               onClick={() => setIsMenuOpen(!isMenuOpen)}
+              aria-label={isMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
+              aria-expanded={isMenuOpen}
               className="md:hidden text-amber-300"
             >
               ☰
@@ -1170,6 +1205,7 @@ export default function ThierryPortfolio() {
             <div className="flex gap-8">
               <motion.a
                 href="https://www.linkedin.com/in/thierry-amiot-b92a7437"
+                aria-label="LinkedIn profile"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.2 }}
@@ -1179,6 +1215,7 @@ export default function ThierryPortfolio() {
               </motion.a>
               <motion.a
                 href="https://github.com/thierry0303"
+                aria-label="GitHub profile"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.2 }}
@@ -1188,6 +1225,7 @@ export default function ThierryPortfolio() {
               </motion.a>
               <motion.a
                 href="mailto:thierry@thierryamiot.com"
+                aria-label="Send an email"
                 whileHover={{ scale: 1.2 }}
                 className="text-gray-400 hover:text-amber-300 transition cursor-pointer p-2 rounded-lg hover:bg-amber-400/10"
               >
