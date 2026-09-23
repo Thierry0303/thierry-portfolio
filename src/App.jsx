@@ -479,7 +479,7 @@ export default function ThierryPortfolio() {
       descFr: 'Simulateur interactif démontrant les flux d\'authentification de paiement 3D Secure, l\'évaluation des risques et les mécanismes de prévention de la fraude.',
       descEs: 'Simulador interactivo que demuestra flujos de autenticación de pago 3D Secure, evaluación de riesgos y mecanismos de prevención de fraude.',
       descPt: 'Simulador interactivo demonstrando fluxos de autenticação de pagamento 3D Secure, avaliação de risco e mecanismos de prevenção de fraude.',
-      link: 'https://thierry0303.github.io/training/',
+      link: 'https://thierry0303.github.io/simulator/',
       highlights: ['3DS 2.0', 'Fraud Prevention', 'Simulator'],
       color: 'from-rose-600 to-rose-400'
     },
