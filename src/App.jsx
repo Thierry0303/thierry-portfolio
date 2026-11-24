@@ -569,72 +569,119 @@ export default function ThierryPortfolio() {
       periodFr: 'Novembre 2021 – Présent',
       periodEs: 'Noviembre 2021 – Presente',
       periodPt: 'Novembro 2021 – Presente',
-      focusEn: '3DS Fraud Prevention Solutions',
-      focusFr: 'Solutions de prévention de fraude 3DS',
-      focusEs: 'Soluciones de prevención de fraude 3DS',
-      focusPt: 'Soluções de prevenção de fraude 3DS',
+      focusEn: '3DS & Fraud Prevention · Renewals & Growth',
+      focusFr: 'Prévention de la fraude 3DS · Renouvellements et croissance',
+      focusEs: 'Prevención de fraude 3DS · Renovaciones y crecimiento',
+      focusPt: 'Prevenção de fraude 3DS · Renovações e crescimento',
       highlightsEn: [
-        'Strategic account management of Tier 1 clients across EMEA',
-        'Lead complex API integrations and 3DS 2.0 implementations',
-        'Coordinate cross-functional teams on fraud prevention',
-        'Maintain high customer satisfaction metrics'
+        'Renewed all five accounts that came up for renewal over five years, protecting £5m in combined ARR',
+        'Grew the portfolio by roughly £600k in annual recurring revenue through cross-sell, led by behavioural biometrics',
+        'Led 3DS 2.0 rollouts and API integrations for Tier 1 issuers, growing transaction volumes 20% as they scaled into production',
+        'Sustained CSAT above 90% through quarterly surveys, product training and technical documentation',
+        'Built the commercial tooling the team runs on: a 3DS simulator, a 34-lesson training portal and an ROI/competitor model'
       ],
       highlightsFr: [
-        'Gestion stratégique des comptes clients de premier rang dans toute la région EMEA',
-        'Diriger les intégrations API complexes et les implémentations 3DS 2.0',
-        'Coordonner les équipes transversales sur la prévention de la fraude',
-        'Maintenir des métriques élevées de satisfaction client'
+        'Renouvelé la totalité des cinq comptes arrivés à échéance en cinq ans, préservant 5 M£ de revenus récurrents',
+        'Développé le portefeuille d\'environ 600 k£ de revenus récurrents annuels par ventes additionnelles, portées par la biométrie comportementale',
+        'Piloté les déploiements 3DS 2.0 et les intégrations API pour des émetteurs de premier rang, avec une hausse de 20 % des volumes de transactions en production',
+        'Maintenu une satisfaction client supérieure à 90 % grâce aux enquêtes trimestrielles, à la formation produit et à la documentation technique',
+        'Conçu les outils commerciaux utilisés par l\'équipe : simulateur 3DS, portail de formation de 34 leçons et modèle de retour sur investissement'
       ],
       highlightsEs: [
-        'Gestión estratégica de cuentas de clientes de primer nivel en toda la región EMEA',
-        'Liderar integraciones API complejas e implementaciones 3DS 2.0',
-        'Coordinar equipos transversales en prevención de fraude',
-        'Mantener métricas altas de satisfacción del cliente'
+        'Renové la totalidad de las cinco cuentas que vencieron en cinco años, protegiendo 5 M£ de ingresos recurrentes',
+        'Amplié la cartera en unos 600 k£ de ingresos recurrentes anuales mediante venta cruzada, impulsada por la biometría conductual',
+        'Dirigí despliegues 3DS 2.0 e integraciones de API para emisores de primer nivel, con un aumento del 20 % en los volúmenes de transacciones',
+        'Mantuve una satisfacción del cliente superior al 90 % mediante encuestas trimestrales, formación de producto y documentación técnica',
+        'Construí las herramientas comerciales que usa el equipo: simulador 3DS, portal formativo de 34 lecciones y modelo de retorno de inversión'
       ],
       highlightsPt: [
-        'Gestão estratégica de contas de clientes de topo em toda a região EMEA',
-        'Liderar integrações API complexas e implementações 3DS 2.0',
-        'Coordenar equipas transversais sobre prevenção de fraude',
-        'Manter métricas elevadas de satisfação do cliente'
+        'Renovei a totalidade das cinco contas que chegaram a renovação em cinco anos, protegendo 5 M£ de receita recorrente',
+        'Ampliei a carteira em cerca de 600 k£ de receita recorrente anual através de venda cruzada, impulsionada pela biometria comportamental',
+        'Liderei implementações 3DS 2.0 e integrações de API para emissores de topo, com um aumento de 20 % nos volumes de transacções',
+        'Mantive uma satisfação do cliente acima de 90 % através de inquéritos trimestrais, formação de produto e documentação técnica',
+        'Construí as ferramentas comerciais que a equipa utiliza: simulador 3DS, portal de formação com 34 lições e modelo de retorno do investimento'
       ]
     },
     {
-      titleEn: 'Senior Project Manager',
-      titleFr: 'Chef de Projet Senior',
-      titleEs: 'Gerente de Proyecto Senior',
-      titlePt: 'Gestor de Projecto Sénior',
+      titleEn: 'Project Manager',
+      titleFr: 'Chef de Projet',
+      titleEs: 'Gerente de Proyecto',
+      titlePt: 'Gestor de Projecto',
       company: 'Diners Club / Discover Financial Services',
       periodEn: 'May 2017 – November 2021',
       periodFr: 'Mai 2017 – Novembre 2021',
       periodEs: 'Mayo 2017 – Noviembre 2021',
       periodPt: 'Maio 2017 – Novembro 2021',
-      focusEn: 'Global Acquirer Onboarding',
-      focusFr: 'Intégration globale d\'acquéreurs',
-      focusEs: 'Integración global de adquirentes',
-      focusPt: 'Integração global de adquirentes',
+      focusEn: 'Acquirer Onboarding & Acceptance',
+      focusFr: 'Intégration d\'acquéreurs et acceptation',
+      focusEs: 'Integración de adquirentes y aceptación',
+      focusPt: 'Integração de adquirentes e aceitação',
       highlightsEn: [
-        'Led Credit Mutuel Arkea partnership (NASDAQ listed)',
-        'Enabled La Banque Postale Discover acceptance',
-        'Led onboarding of 4 Tier 1 acquirers',
-        'Managed strategic partnerships across Europe'
+        'Rolled out Discover Global Network acceptance at La Banque Postale, covering 60,000 merchants',
+        'Launched BNP Paribas acceptance with 5,000 merchants, growing to 30,000 in the second year',
+        'Grew Crédit Mutuel Arkéa acceptance from 3,000 to 7,000 merchants over two years',
+        'Onboarded Tier 1 acquirers in France and Spain and delivered 3DS 2.0 end-to-end',
+        'Owned the Quality of Acceptance programme network-wide, lifting acceptance to near 100% through routing-table updates and mystery-shopping campaigns'
       ],
       highlightsFr: [
-        'Partenariat Credit Mutuel Arkea (listé sur NASDAQ)',
-        'Activé l\'acceptation Discover de La Banque Postale',
-        'Dirigé l\'intégration de 4 acquéreurs de premier rang',
-        'Partnerships stratégiques gérés en Europe'
+        'Déployé l\'acceptation Discover Global Network à La Banque Postale, couvrant 60 000 commerçants',
+        'Lancé l\'acceptation BNP Paribas avec 5 000 commerçants, portée à 30 000 la deuxième année',
+        'Porté l\'acceptation du Crédit Mutuel Arkéa de 3 000 à 7 000 commerçants en deux ans',
+        'Intégré des acquéreurs de premier rang en France et en Espagne et livré le 3DS 2.0 de bout en bout',
+        'Piloté le programme Quality of Acceptance à l\'échelle du réseau, portant l\'acceptation à près de 100 % via la mise à jour des tables de routage et des campagnes de visites mystère'
       ],
       highlightsEs: [
-        'Lideró asociación Credit Mutuel Arkea (cotizada en NASDAQ)',
-        'Habilitó aceptación de Discover de La Banque Postale',
-        'Lideró incorporación de 4 adquirentes de primer nivel',
-        'Partnerships estratégicos gestionados en toda Europa'
+        'Desplegué la aceptación de Discover Global Network en La Banque Postale, cubriendo 60 000 comercios',
+        'Lancé la aceptación de BNP Paribas con 5 000 comercios, hasta 30 000 el segundo año',
+        'Amplié la aceptación de Crédit Mutuel Arkéa de 3 000 a 7 000 comercios en dos años',
+        'Incorporé adquirentes de primer nivel en Francia y España y entregué 3DS 2.0 de extremo a extremo',
+        'Dirigí el programa Quality of Acceptance en toda la red, elevando la aceptación a casi el 100 % mediante actualización de tablas de enrutamiento y campañas de comprador misterioso'
       ],
       highlightsPt: [
-        'Liderou parceria Credit Mutuel Arkea (listada em NASDAQ)',
-        'Activou aceitação do Discover da La Banque Postale',
-        'Liderou integração de 4 adquirentes de topo',
-        'Parcerias estratégicas gerenciadas em toda a Europa'
+        'Implementei a aceitação da Discover Global Network no La Banque Postale, abrangendo 60 000 comerciantes',
+        'Lancei a aceitação do BNP Paribas com 5 000 comerciantes, crescendo para 30 000 no segundo ano',
+        'Aumentei a aceitação do Crédit Mutuel Arkéa de 3 000 para 7 000 comerciantes em dois anos',
+        'Integrei adquirentes de topo em França e Espanha e entreguei 3DS 2.0 de ponta a ponta',
+        'Liderei o programa Quality of Acceptance em toda a rede, elevando a aceitação para perto de 100 % através da actualização de tabelas de encaminhamento e campanhas de cliente mistério'
+      ]
+    },
+    {
+      titleEn: 'Technical Account Manager',
+      titleFr: 'Responsable Technique de Comptes',
+      titleEs: 'Gerente Técnico de Cuentas',
+      titlePt: 'Gestor Técnico de Contas',
+      company: 'Visa Inc. (Business Support Operations)',
+      periodEn: 'August 2013 – April 2017',
+      periodFr: 'Août 2013 – Avril 2017',
+      periodEs: 'Agosto 2013 – Abril 2017',
+      periodPt: 'Agosto 2013 – Abril 2017',
+      focusEn: 'Digital Wallets & Tokenisation',
+      focusFr: 'Portefeuilles numériques et tokenisation',
+      focusEs: 'Carteras digitales y tokenización',
+      focusPt: 'Carteiras digitais e tokenização',
+      highlightsEn: [
+        'Supported the Apple Pay launch and the V.me digital wallet programme as client-facing technical contact',
+        'Subject-matter expert for Visa Token Service, digital wallets and Payment Stop',
+        'Drove client adoption of newly launched products across major financial institutions',
+        'Delivered high-volume technical support to Tier 1 issuers, consistently meeting SLAs'
+      ],
+      highlightsFr: [
+        'Accompagné le lancement d\'Apple Pay et le programme de portefeuille numérique V.me comme interlocuteur technique client',
+        'Expert de référence pour Visa Token Service, les portefeuilles numériques et le service Payment Stop',
+        'Favorisé l\'adoption des nouveaux produits auprès des grandes institutions financières',
+        'Assuré un support technique à fort volume pour des émetteurs de premier rang, dans le respect constant des engagements de service'
+      ],
+      highlightsEs: [
+        'Acompañé el lanzamiento de Apple Pay y el programa de cartera digital V.me como contacto técnico con el cliente',
+        'Experto de referencia en Visa Token Service, carteras digitales y el servicio Payment Stop',
+        'Impulsé la adopción de productos recién lanzados en grandes instituciones financieras',
+        'Presté soporte técnico de alto volumen a emisores de primer nivel, cumpliendo siempre los acuerdos de servicio'
+      ],
+      highlightsPt: [
+        'Acompanhei o lançamento do Apple Pay e o programa de carteira digital V.me como contacto técnico junto do cliente',
+        'Especialista de referência em Visa Token Service, carteiras digitais e serviço Payment Stop',
+        'Impulsionei a adopção de produtos recém-lançados junto de grandes instituições financeiras',
+        'Prestei apoio técnico de elevado volume a emissores de topo, cumprindo sempre os acordos de serviço'
       ]
     }
   ];
