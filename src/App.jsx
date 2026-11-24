@@ -621,34 +621,35 @@ export default function ThierryPortfolio() {
       focusEs: 'Integración de adquirentes y aceptación',
       focusPt: 'Integração de adquirentes e aceitação',
       highlightsEn: [
-        'Led two Discover Global Network agreements to signature: Crédit Mutuel Arkéa (2019) and FrenchSys (2021)',
+        'Led three Discover Global Network agreements to signature: La Banque Postale (2019), Crédit Mutuel Arkéa (2019) and FrenchSys (2021)',
         'The Arkéa agreement opened POS, mobile, e-commerce and ATM acceptance across the Crédit Mutuel de Bretagne, Sud-Ouest and Massif Central networks',
         'The FrenchSys partnership established a technical standard letting French acquirers and merchants accept Discover alongside the other major schemes',
         'Grew merchant acceptance: La Banque Postale 60,000 merchants; BNP Paribas 5,000 to 30,000 in year two; Arkéa 3,000 to 7,000 over two years',
         'Owned the Quality of Acceptance programme network-wide, lifting acceptance to near 100% through routing-table updates and mystery-shopping campaigns'
       ],
       highlightsFr: [
-        'Mené deux accords Discover Global Network jusqu\'à la signature : Crédit Mutuel Arkéa (2019) et FrenchSys (2021)',
+        'Mené trois accords Discover Global Network jusqu\'à la signature : La Banque Postale (2019), Crédit Mutuel Arkéa (2019) et FrenchSys (2021)',
         'L\'accord Arkéa a ouvert l\'acceptation en magasin, sur mobile, en ligne et aux distributeurs des réseaux Crédit Mutuel de Bretagne, Sud-Ouest et Massif Central',
         'Le partenariat FrenchSys a établi un standard technique permettant aux acquéreurs et commerçants français d\'accepter Discover aux côtés des autres grands réseaux',
         'Développé l\'acceptation commerçants : La Banque Postale 60 000 commerçants ; BNP Paribas de 5 000 à 30 000 la deuxième année ; Arkéa de 3 000 à 7 000 en deux ans',
         'Piloté le programme Quality of Acceptance à l\'échelle du réseau, portant l\'acceptation à près de 100 % via les tables de routage et des campagnes de visites mystère'
       ],
       highlightsEs: [
-        'Llevé dos acuerdos de Discover Global Network hasta la firma: Crédit Mutuel Arkéa (2019) y FrenchSys (2021)',
+        'Llevé tres acuerdos de Discover Global Network hasta la firma: La Banque Postale (2019), Crédit Mutuel Arkéa (2019) y FrenchSys (2021)',
         'El acuerdo con Arkéa abrió la aceptación en tienda, móvil, comercio electrónico y cajeros en las redes Crédit Mutuel de Bretagne, Sud-Ouest y Massif Central',
         'La alianza con FrenchSys estableció un estándar técnico que permite a adquirentes y comercios franceses aceptar Discover junto a las demás grandes redes',
         'Amplié la aceptación: La Banque Postale 60 000 comercios; BNP Paribas de 5 000 a 30 000 el segundo año; Arkéa de 3 000 a 7 000 en dos años',
         'Dirigí el programa Quality of Acceptance en toda la red, elevando la aceptación a casi el 100 % mediante tablas de enrutamiento y campañas de comprador misterioso'
       ],
       highlightsPt: [
-        'Conduzi dois acordos da Discover Global Network até à assinatura: Crédit Mutuel Arkéa (2019) e FrenchSys (2021)',
+        'Conduzi três acordos da Discover Global Network até à assinatura: La Banque Postale (2019), Crédit Mutuel Arkéa (2019) e FrenchSys (2021)',
         'O acordo com o Arkéa abriu a aceitação em loja, telemóvel, comércio electrónico e caixas automáticas nas redes Crédit Mutuel de Bretagne, Sud-Ouest e Massif Central',
         'A parceria com a FrenchSys estabeleceu um padrão técnico que permite a adquirentes e comerciantes franceses aceitar Discover a par das outras grandes redes',
         'Aumentei a aceitação: La Banque Postale 60 000 comerciantes; BNP Paribas de 5 000 para 30 000 no segundo ano; Arkéa de 3 000 para 7 000 em dois anos',
         'Liderei o programa Quality of Acceptance em toda a rede, elevando a aceitação para perto de 100 % através de tabelas de encaminhamento e campanhas de cliente mistério'
       ],
       press: [
+        { label: 'La Banque Postale × Discover Global Network (2019)', url: 'https://www.electronicpaymentsinternational.com/news/la-banque-postale-discover/' },
         { label: 'Crédit Mutuel Arkéa × Discover Global Network (2019)', url: 'https://www.nasdaq.com/press-release/credit-mutuel-arkea1-and-discoverr-global-network-sign-an-agreement-2019-08-29' },
         { label: 'FrenchSys × Discover Global Network (2021)', url: 'https://www.frenchsys.com/en/discover-global-network-increases-card-acceptance-in-france-through-its-partnership-with-frenchsys-security/' }
       ],
