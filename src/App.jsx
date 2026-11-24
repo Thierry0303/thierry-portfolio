@@ -47,7 +47,8 @@ const translations = {
     },
     experience: {
       title: 'Professional',
-      titleHighlight: 'Leadership'
+      titleHighlight: 'Leadership',
+      pressLabel: 'In the press'
     },
     academic: {
       title: 'Academic',
@@ -126,7 +127,8 @@ const translations = {
     },
     experience: {
       title: 'Expérience',
-      titleHighlight: 'Professionnelle'
+      titleHighlight: 'Professionnelle',
+      pressLabel: 'Dans la presse'
     },
     academic: {
       title: 'Formation',
@@ -205,7 +207,8 @@ const translations = {
     },
     experience: {
       title: 'Experiencia',
-      titleHighlight: 'Profesional'
+      titleHighlight: 'Profesional',
+      pressLabel: 'En la prensa'
     },
     academic: {
       title: 'Formación',
@@ -284,7 +287,8 @@ const translations = {
     },
     experience: {
       title: 'Experiência',
-      titleHighlight: 'Profissional'
+      titleHighlight: 'Profissional',
+      pressLabel: 'Na imprensa'
     },
     academic: {
       title: 'Formação',
@@ -617,33 +621,37 @@ export default function ThierryPortfolio() {
       focusEs: 'Integración de adquirentes y aceptación',
       focusPt: 'Integração de adquirentes e aceitação',
       highlightsEn: [
-        'Rolled out Discover Global Network acceptance at La Banque Postale, covering 60,000 merchants',
-        'Launched BNP Paribas acceptance with 5,000 merchants, growing to 30,000 in the second year',
-        'Grew Crédit Mutuel Arkéa acceptance from 3,000 to 7,000 merchants over two years',
-        'Onboarded Tier 1 acquirers in France and Spain and delivered 3DS 2.0 end-to-end',
+        'Led two Discover Global Network agreements to signature: Crédit Mutuel Arkéa (2019) and FrenchSys (2021)',
+        'The Arkéa agreement opened POS, mobile, e-commerce and ATM acceptance across the Crédit Mutuel de Bretagne, Sud-Ouest and Massif Central networks',
+        'The FrenchSys partnership established a technical standard letting French acquirers and merchants accept Discover alongside the other major schemes',
+        'Grew merchant acceptance: La Banque Postale 60,000 merchants; BNP Paribas 5,000 to 30,000 in year two; Arkéa 3,000 to 7,000 over two years',
         'Owned the Quality of Acceptance programme network-wide, lifting acceptance to near 100% through routing-table updates and mystery-shopping campaigns'
       ],
       highlightsFr: [
-        'Déployé l\'acceptation Discover Global Network à La Banque Postale, couvrant 60 000 commerçants',
-        'Lancé l\'acceptation BNP Paribas avec 5 000 commerçants, portée à 30 000 la deuxième année',
-        'Porté l\'acceptation du Crédit Mutuel Arkéa de 3 000 à 7 000 commerçants en deux ans',
-        'Intégré des acquéreurs de premier rang en France et en Espagne et livré le 3DS 2.0 de bout en bout',
-        'Piloté le programme Quality of Acceptance à l\'échelle du réseau, portant l\'acceptation à près de 100 % via la mise à jour des tables de routage et des campagnes de visites mystère'
+        'Mené deux accords Discover Global Network jusqu\'à la signature : Crédit Mutuel Arkéa (2019) et FrenchSys (2021)',
+        'L\'accord Arkéa a ouvert l\'acceptation en magasin, sur mobile, en ligne et aux distributeurs des réseaux Crédit Mutuel de Bretagne, Sud-Ouest et Massif Central',
+        'Le partenariat FrenchSys a établi un standard technique permettant aux acquéreurs et commerçants français d\'accepter Discover aux côtés des autres grands réseaux',
+        'Développé l\'acceptation commerçants : La Banque Postale 60 000 commerçants ; BNP Paribas de 5 000 à 30 000 la deuxième année ; Arkéa de 3 000 à 7 000 en deux ans',
+        'Piloté le programme Quality of Acceptance à l\'échelle du réseau, portant l\'acceptation à près de 100 % via les tables de routage et des campagnes de visites mystère'
       ],
       highlightsEs: [
-        'Desplegué la aceptación de Discover Global Network en La Banque Postale, cubriendo 60 000 comercios',
-        'Lancé la aceptación de BNP Paribas con 5 000 comercios, hasta 30 000 el segundo año',
-        'Amplié la aceptación de Crédit Mutuel Arkéa de 3 000 a 7 000 comercios en dos años',
-        'Incorporé adquirentes de primer nivel en Francia y España y entregué 3DS 2.0 de extremo a extremo',
-        'Dirigí el programa Quality of Acceptance en toda la red, elevando la aceptación a casi el 100 % mediante actualización de tablas de enrutamiento y campañas de comprador misterioso'
+        'Llevé dos acuerdos de Discover Global Network hasta la firma: Crédit Mutuel Arkéa (2019) y FrenchSys (2021)',
+        'El acuerdo con Arkéa abrió la aceptación en tienda, móvil, comercio electrónico y cajeros en las redes Crédit Mutuel de Bretagne, Sud-Ouest y Massif Central',
+        'La alianza con FrenchSys estableció un estándar técnico que permite a adquirentes y comercios franceses aceptar Discover junto a las demás grandes redes',
+        'Amplié la aceptación: La Banque Postale 60 000 comercios; BNP Paribas de 5 000 a 30 000 el segundo año; Arkéa de 3 000 a 7 000 en dos años',
+        'Dirigí el programa Quality of Acceptance en toda la red, elevando la aceptación a casi el 100 % mediante tablas de enrutamiento y campañas de comprador misterioso'
       ],
       highlightsPt: [
-        'Implementei a aceitação da Discover Global Network no La Banque Postale, abrangendo 60 000 comerciantes',
-        'Lancei a aceitação do BNP Paribas com 5 000 comerciantes, crescendo para 30 000 no segundo ano',
-        'Aumentei a aceitação do Crédit Mutuel Arkéa de 3 000 para 7 000 comerciantes em dois anos',
-        'Integrei adquirentes de topo em França e Espanha e entreguei 3DS 2.0 de ponta a ponta',
-        'Liderei o programa Quality of Acceptance em toda a rede, elevando a aceitação para perto de 100 % através da actualização de tabelas de encaminhamento e campanhas de cliente mistério'
-      ]
+        'Conduzi dois acordos da Discover Global Network até à assinatura: Crédit Mutuel Arkéa (2019) e FrenchSys (2021)',
+        'O acordo com o Arkéa abriu a aceitação em loja, telemóvel, comércio electrónico e caixas automáticas nas redes Crédit Mutuel de Bretagne, Sud-Ouest e Massif Central',
+        'A parceria com a FrenchSys estabeleceu um padrão técnico que permite a adquirentes e comerciantes franceses aceitar Discover a par das outras grandes redes',
+        'Aumentei a aceitação: La Banque Postale 60 000 comerciantes; BNP Paribas de 5 000 para 30 000 no segundo ano; Arkéa de 3 000 para 7 000 em dois anos',
+        'Liderei o programa Quality of Acceptance em toda a rede, elevando a aceitação para perto de 100 % através de tabelas de encaminhamento e campanhas de cliente mistério'
+      ],
+      press: [
+        { label: 'Crédit Mutuel Arkéa × Discover Global Network (2019)', url: 'https://www.nasdaq.com/press-release/credit-mutuel-arkea1-and-discoverr-global-network-sign-an-agreement-2019-08-29' },
+        { label: 'FrenchSys × Discover Global Network (2021)', url: 'https://www.frenchsys.com/en/discover-global-network-increases-card-acceptance-in-france-through-its-partnership-with-frenchsys-security/' }
+      ],
     },
     {
       titleEn: 'Technical Account Manager',
@@ -1138,6 +1146,26 @@ export default function ThierryPortfolio() {
                     </motion.li>
                   ))}
                 </ul>
+
+                {exp.press && (
+                  <div className="mt-5 pt-4 border-t border-slate-700">
+                    <p className="text-xs uppercase tracking-wider text-gray-500 mb-2">{t.experience.pressLabel}</p>
+                    <div className="flex flex-wrap gap-2">
+                      {exp.press.map((item, i) => (
+                        <a
+                          key={i}
+                          href={item.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 text-xs md:text-sm text-amber-300 hover:text-amber-200 border border-amber-400/30 hover:border-amber-400/60 rounded-full px-3 py-1.5 transition"
+                        >
+                          {item.label}
+                          <ExternalLink className="w-3 h-3 flex-shrink-0" />
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </motion.div>
             ))}
           </div>
