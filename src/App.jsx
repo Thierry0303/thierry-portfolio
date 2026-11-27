@@ -6,10 +6,10 @@ import { Helmet } from 'react-helmet-async';
 const translations = {
   en: {
     name: 'Thierry Amiot',
-    tagline: 'Payment Technology Leader & Innovator',
+    tagline: 'Card Payments Acceptance & Partnerships',
     seo: {
-      title: 'Thierry Amiot - Payment Technology Leader | 3DS & Fintech Expert',
-      description: 'Payment Technology Leader with 13+ years in card payments, 3DS and fraud prevention. CSM at Outseer. Based in London, working across EMEA.'
+      title: 'Thierry Amiot - Card Payments Acceptance | Technical Account Manager',
+      description: 'Technical account manager with 13+ years in card payments. Acceptance investigation, partner certification and PSP, acquirer and issuer relationships across Europe, EMEA and LATAM.'
     },
     navLinks: {
       projects: 'Projects',
@@ -19,9 +19,9 @@ const translations = {
       about: 'About'
     },
     hero: {
-      title: 'Payment Technology',
-      titleHighlight: 'Leader & Innovator',
-      subtitle: '13+ years delivering complex, high-impact international payment solutions across Europe. Multilingual specialist in card payments, fraud prevention, and fintech innovation.',
+      title: 'Card Payments',
+      titleHighlight: 'Acceptance & Partnerships',
+      subtitle: '13+ years in card payments across a scheme, a global network and a payments vendor. I take partners through certification and go-live, then lead the investigation when transactions fail at the terminal or in the checkout.',
       viewWork: 'View Work',
       downloadCV: 'Download CV',
       connectLinkedIn: 'Connect on LinkedIn',
@@ -31,7 +31,7 @@ const translations = {
       title: 'Why',
       titleHighlight: 'Work Together',
       items: [
-        { title: 'Industry Leader', description: '13+ years in payment technology, leading complex EMEA projects with Tier 1 institutions.' },
+        { title: 'Acceptance Specialist', description: 'Owned a Quality of Acceptance programme network-wide, lifting acceptance to near 100% across French banking groups.' },
         { title: 'Full-Stack Developer', description: 'From Python pipelines to React frontends. Entrepreneur with multiple live products.' },
         { title: 'Academic Rigor', description: 'MSc Birkbeck, published research on blockchain adoption in payment systems.' },
         { title: 'Multilingual', description: 'Native French & Portuguese, fluent English & Spanish.' }
@@ -62,10 +62,16 @@ const translations = {
       githubDesc: 'View my projects'
     },
     footer: {
-      tagline: 'Payment technology leader, fintech innovator, and practical problem solver',
+      tagline: 'Card payments acceptance, partner certification and technical account management',
       copyright: '© 2026 Thierry Amiot. All rights reserved.'
     },
     skills: {
+      acceptance: 'Acceptance & Certification',
+      acceptanceInvestigation: 'Acceptance Investigation',
+      partnerCertification: 'Partner Certification',
+      midRouting: 'MID & Routing',
+      pspPartnerships: 'PSP Partnerships',
+      sqlTeradata: 'SQL (Teradata)',
       paymentSystems: 'Payment Systems',
       technicalLeadership: 'Technical Leadership',
       frontendDev: 'Frontend Development',
@@ -86,10 +92,10 @@ const translations = {
   },
   fr: {
     name: 'Thierry Amiot',
-    tagline: 'Expert en Technologies de Paiement & Innovateur',
+    tagline: 'Spécialiste de l\'acceptation des paiements par carte',
     seo: {
-      title: 'Thierry Amiot - Expert en Technologies de Paiement | 3DS & Fintech',
-      description: 'Expert en technologies de paiement : plus de 13 ans en paiements par carte, 3DS et prévention de la fraude. CSM chez Outseer. Basé à Londres, actif dans toute la zone EMEA.'
+      title: 'Thierry Amiot - Acceptation des paiements par carte | Responsable technique de comptes',
+      description: 'Responsable technique de comptes, plus de 13 ans dans les paiements par carte. Investigation de l\'acceptation, certification des partenaires et relations PSP, acquéreurs et émetteurs en Europe, EMEA et Amérique latine.'
     },
     navLinks: {
       projects: 'Projets',
@@ -99,9 +105,9 @@ const translations = {
       about: 'Contact'
     },
     hero: {
-      title: 'Expert en Technologie',
-      titleHighlight: 'des Paiements & Innovateur',
-      subtitle: 'Plus de 13 ans d\'expérience dans la conception et la mise en œuvre de solutions de paiement internationales complexes et stratégiques en Europe. Spécialiste des paiements par carte, de la prévention de la fraude et de l\'innovation fintech.',
+      title: 'Acceptation des',
+      titleHighlight: 'paiements par carte',
+      subtitle: 'Plus de 13 ans dans les paiements par carte, au sein d\'un schéma de cartes, d\'un réseau international et d\'un éditeur de solutions. J\'accompagne les partenaires de la certification à la mise en production, puis je mène les investigations lorsque les transactions échouent au terminal ou au paiement en ligne.',
       viewWork: 'Voir mes projets',
       downloadCV: 'Télécharger mon CV',
       connectLinkedIn: 'Me connecter sur LinkedIn',
@@ -111,7 +117,7 @@ const translations = {
       title: 'Pourquoi',
       titleHighlight: 'Collaborer avec moi',
       items: [
-        { title: 'Expert du secteur', description: 'Plus de 13 ans dans les technologies de paiement, à piloter des projets complexes en EMEA pour des institutions financières de premier plan.' },
+        { title: 'Spécialiste de l\'acceptation', description: 'Programme Quality of Acceptance piloté à l\'échelle du réseau, portant l\'acceptation à près de 100 % au sein des groupes bancaires français.' },
         { title: 'Développeur polyvalent', description: 'Développeur full-stack : pipelines de données en Python et interfaces modernes en React. Entrepreneur avec plusieurs produits SaaS en production.' },
         { title: 'Excellence académique', description: 'Master à Birkbeck (Université de Londres) avec une recherche publiée sur l\'adoption de la blockchain dans les systèmes de paiement.' },
         { title: 'Multilingue', description: 'Français et portugais maternels, anglais et espagnol courants.' }
@@ -142,10 +148,16 @@ const translations = {
       githubDesc: 'Voir mes projets'
     },
     footer: {
-      tagline: 'Expert en technologies de paiement, innovateur fintech et résolveur de problèmes concrets',
+      tagline: 'Acceptation des paiements par carte, certification des partenaires et gestion technique de comptes',
       copyright: '© 2026 Thierry Amiot. Tous droits réservés.'
     },
     skills: {
+      acceptance: 'Acceptation et certification',
+      acceptanceInvestigation: 'Investigation d\'acceptation',
+      partnerCertification: 'Certification des partenaires',
+      midRouting: 'MID et routage',
+      pspPartnerships: 'Partenariats PSP',
+      sqlTeradata: 'SQL (Teradata)',
       paymentSystems: 'Systèmes de paiement',
       technicalLeadership: 'Leadership technique',
       frontendDev: 'Développement d\'interface',
@@ -166,10 +178,10 @@ const translations = {
   },
   es: {
     name: 'Thierry Amiot',
-    tagline: 'Experto en Tecnología de Pagos e Innovador',
+    tagline: 'Especialista en aceptación de pagos con tarjeta',
     seo: {
-      title: 'Thierry Amiot - Experto en Tecnología de Pagos | 3DS & Fintech',
-      description: 'Experto en tecnología de pagos: más de 13 años en pagos con tarjeta, 3DS y prevención de fraude. CSM en Outseer. Con base en Londres, activo en toda la región EMEA.'
+      title: 'Thierry Amiot - Aceptación de pagos con tarjeta | Gestor técnico de cuentas',
+      description: 'Gestor técnico de cuentas con más de 13 años en pagos con tarjeta. Investigación de aceptación, certificación de socios y relaciones con PSP, adquirentes y emisores en Europa, EMEA y América Latina.'
     },
     navLinks: {
       projects: 'Proyectos',
@@ -179,9 +191,9 @@ const translations = {
       about: 'Contacto'
     },
     hero: {
-      title: 'Experto en Tecnología',
-      titleHighlight: 'de Pagos e Innovador',
-      subtitle: 'Más de 13 años diseñando e implementando soluciones de pago internacionales complejas y de alto impacto en Europa. Especialista en pagos con tarjeta, prevención de fraude e innovación fintech.',
+      title: 'Aceptación de pagos',
+      titleHighlight: 'con tarjeta',
+      subtitle: 'Más de 13 años en pagos con tarjeta, en un esquema de tarjetas, una red internacional y un proveedor de soluciones. Acompaño a los socios desde la certificación hasta la puesta en producción y dirijo la investigación cuando las transacciones fallan en el terminal o en el checkout.',
       viewWork: 'Ver mis proyectos',
       downloadCV: 'Descargar mi CV',
       connectLinkedIn: 'Conectarme en LinkedIn',
@@ -191,7 +203,7 @@ const translations = {
       title: 'Por qué',
       titleHighlight: 'Trabajar conmigo',
       items: [
-        { title: 'Experto del sector', description: 'Más de 13 años en tecnologías de pago, liderando proyectos complejos en EMEA para instituciones financieras de primer nivel.' },
+        { title: 'Especialista en aceptación', description: 'Programa Quality of Acceptance dirigido a escala de red, elevando la aceptación a casi el 100 % en los grupos bancarios franceses.' },
         { title: 'Desarrollador versátil', description: 'Desarrollador full-stack: pipelines de datos en Python e interfaces modernas en React. Emprendedor con varios productos SaaS en producción.' },
         { title: 'Excelencia académica', description: 'Máster por Birkbeck (Universidad de Londres) con investigación publicada sobre la adopción de blockchain en sistemas de pago.' },
         { title: 'Multilingüe', description: 'Francés y portugués nativos, inglés y español con fluidez.' }
@@ -222,10 +234,16 @@ const translations = {
       githubDesc: 'Ver mis proyectos'
     },
     footer: {
-      tagline: 'Experto en tecnologías de pago, innovador fintech y solucionador de problemas prácticos',
+      tagline: 'Aceptación de pagos con tarjeta, certificación de socios y gestión técnica de cuentas',
       copyright: '© 2026 Thierry Amiot. Todos los derechos reservados.'
     },
     skills: {
+      acceptance: 'Aceptación y certificación',
+      acceptanceInvestigation: 'Investigación de aceptación',
+      partnerCertification: 'Certificación de socios',
+      midRouting: 'MID y enrutamiento',
+      pspPartnerships: 'Alianzas con PSP',
+      sqlTeradata: 'SQL (Teradata)',
       paymentSystems: 'Sistemas de pago',
       technicalLeadership: 'Liderazgo técnico',
       frontendDev: 'Desarrollo de interfaz',
@@ -246,10 +264,10 @@ const translations = {
   },
   pt: {
     name: 'Thierry Amiot',
-    tagline: 'Especialista em Tecnologias de Pagamento & Inovador',
+    tagline: 'Especialista em aceitação de pagamentos com cartão',
     seo: {
-      title: 'Thierry Amiot - Especialista em Tecnologias de Pagamento | 3DS & Fintech',
-      description: 'Especialista em tecnologias de pagamento: mais de 13 anos em pagamentos com cartão, 3DS e prevenção de fraude. CSM na Outseer. Baseado em Londres, activo em toda a EMEA.'
+      title: 'Thierry Amiot - Aceitação de pagamentos com cartão | Gestor técnico de contas',
+      description: 'Gestor técnico de contas com mais de 13 anos em pagamentos com cartão. Investigação de aceitação, certificação de parceiros e relações com PSP, adquirentes e emissores na Europa, EMEA e América Latina.'
     },
     navLinks: {
       projects: 'Projectos',
@@ -259,9 +277,9 @@ const translations = {
       about: 'Contacto'
     },
     hero: {
-      title: 'Especialista em Tecnologia',
-      titleHighlight: 'de Pagamentos & Inovador',
-      subtitle: 'Mais de 13 anos a desenvolver e implementar soluções de pagamento internacionais complexas e de alto impacto em toda a Europa. Especialista em pagamentos com cartão, prevenção de fraude e inovação em tecnologia financeira.',
+      title: 'Aceitação de pagamentos',
+      titleHighlight: 'com cartão',
+      subtitle: 'Mais de 13 anos em pagamentos com cartão, num esquema de cartões, numa rede internacional e num fornecedor de soluções. Acompanho os parceiros desde a certificação até à entrada em produção e conduzo a investigação quando as transacções falham no terminal ou no checkout.',
       viewWork: 'Ver os meus projectos',
       downloadCV: 'Descarregar o meu CV',
       connectLinkedIn: 'Conectar-me no LinkedIn',
@@ -271,7 +289,7 @@ const translations = {
       title: 'Porquê',
       titleHighlight: 'Trabalhar comigo',
       items: [
-        { title: 'Especialista do sector', description: 'Mais de 13 anos em tecnologias de pagamento, a liderar projectos complexos na EMEA para instituições financeiras de primeiro nível.' },
+        { title: 'Especialista em aceitação', description: 'Programa Quality of Acceptance conduzido à escala da rede, elevando a aceitação a quase 100 % nos grupos bancários franceses.' },
         { title: 'Desenvolvedor versátil', description: 'Desenvolvedor completo: pipelines de dados em Python e interfaces modernas em React. Empreendedor com vários produtos SaaS em produção.' },
         { title: 'Excelência académica', description: 'Mestrado na Birkbeck (Universidade de Londres) com investigação publicada sobre a adopção da blockchain nos sistemas de pagamento.' },
         { title: 'Multilingue', description: 'Francês e português maternos, inglês e espanhol fluentes.' }
@@ -302,10 +320,16 @@ const translations = {
       githubDesc: 'Ver os meus projectos'
     },
     footer: {
-      tagline: 'Especialista em tecnologias de pagamento, inovador fintech e resolvedor de problemas práticos',
+      tagline: 'Aceitação de pagamentos com cartão, certificação de parceiros e gestão técnica de contas',
       copyright: '© 2026 Thierry Amiot. Todos os direitos reservados.'
     },
     skills: {
+      acceptance: 'Aceitação e certificação',
+      acceptanceInvestigation: 'Investigação de aceitação',
+      partnerCertification: 'Certificação de parceiros',
+      midRouting: 'MID e encaminhamento',
+      pspPartnerships: 'Parcerias com PSP',
+      sqlTeradata: 'SQL (Teradata)',
       paymentSystems: 'Sistemas de pagamento',
       technicalLeadership: 'Liderança técnica',
       frontendDev: 'Desenvolvimento de interface',
@@ -544,6 +568,10 @@ export default function ThierryPortfolio() {
   ];
 
   const skills = [
+    {
+      categoryKey: 'acceptance',
+      skillKeys: ['acceptanceInvestigation', 'partnerCertification', 'midRouting', 'pspPartnerships']
+    },
     { 
       categoryKey: 'paymentSystems',
       skills: ['ISO 8583', 'EMV', 'NFC', '3DS 2.0', 'PCI DSS', 'Tokenization'] 
@@ -558,7 +586,7 @@ export default function ThierryPortfolio() {
     },
     { 
       categoryKey: 'backendDev',
-      skillKeys: ['python', 'dataPipelines', 'githubActions', 'automation']
+      skillKeys: ['python', 'sqlTeradata', 'dataPipelines', 'githubActions', 'automation']
     }
   ];
 
@@ -573,10 +601,10 @@ export default function ThierryPortfolio() {
       periodFr: 'Novembre 2021 – Présent',
       periodEs: 'Noviembre 2021 – Presente',
       periodPt: 'Novembro 2021 – Presente',
-      focusEn: '3DS & Fraud Prevention · Renewals & Growth',
-      focusFr: 'Prévention de la fraude 3DS · Renouvellements et croissance',
-      focusEs: 'Prevención de fraude 3DS · Renovaciones y crecimiento',
-      focusPt: 'Prevenção de fraude 3DS · Renovações e crescimento',
+      focusEn: 'Issuer & Processor Relationships · 3DS, Acceptance & Growth',
+      focusFr: 'Relations émetteurs et processeurs · 3DS, acceptation et croissance',
+      focusEs: 'Relaciones con emisores y procesadores · 3DS, aceptación y crecimiento',
+      focusPt: 'Relações com emissores e processadores · 3DS, aceitação e crescimento',
       highlightsEn: [
         'Renewed all five accounts that came up for renewal over five years, protecting £5m in combined ARR',
         'Grew the portfolio by roughly £600k in annual recurring revenue through cross-sell, led by behavioural biometrics',
@@ -621,32 +649,32 @@ export default function ThierryPortfolio() {
       focusEs: 'Integración de adquirentes y aceptación',
       focusPt: 'Integração de adquirentes e aceitação',
       highlightsEn: [
+        'Owned the Quality of Acceptance programme network-wide, lifting acceptance to near 100% through routing-table updates and mystery-shopping campaigns',
         'Led three Discover Global Network agreements to signature: La Banque Postale (2019), Crédit Mutuel Arkéa (2019) and FrenchSys (2021)',
         'The Arkéa agreement opened POS, mobile, e-commerce and ATM acceptance across the Crédit Mutuel de Bretagne, Sud-Ouest and Massif Central networks',
         'The FrenchSys partnership established a technical standard letting French acquirers and merchants accept Discover alongside the other major schemes',
-        'Grew merchant acceptance: La Banque Postale 60,000 merchants; BNP Paribas 5,000 to 30,000 in year two; Arkéa 3,000 to 7,000 over two years',
-        'Owned the Quality of Acceptance programme network-wide, lifting acceptance to near 100% through routing-table updates and mystery-shopping campaigns'
+        'Grew merchant acceptance: La Banque Postale 60,000 merchants; BNP Paribas 5,000 to 30,000 in year two; Arkéa 3,000 to 7,000 over two years'
       ],
       highlightsFr: [
+        'Piloté le programme Quality of Acceptance à l\'échelle du réseau, portant l\'acceptation à près de 100 % via les tables de routage et des campagnes de visites mystère',
         'Mené trois accords Discover Global Network jusqu\'à la signature : La Banque Postale (2019), Crédit Mutuel Arkéa (2019) et FrenchSys (2021)',
         'L\'accord Arkéa a ouvert l\'acceptation en magasin, sur mobile, en ligne et aux distributeurs des réseaux Crédit Mutuel de Bretagne, Sud-Ouest et Massif Central',
         'Le partenariat FrenchSys a établi un standard technique permettant aux acquéreurs et commerçants français d\'accepter Discover aux côtés des autres grands réseaux',
-        'Développé l\'acceptation commerçants : La Banque Postale 60 000 commerçants ; BNP Paribas de 5 000 à 30 000 la deuxième année ; Arkéa de 3 000 à 7 000 en deux ans',
-        'Piloté le programme Quality of Acceptance à l\'échelle du réseau, portant l\'acceptation à près de 100 % via les tables de routage et des campagnes de visites mystère'
+        'Développé l\'acceptation commerçants : La Banque Postale 60 000 commerçants ; BNP Paribas de 5 000 à 30 000 la deuxième année ; Arkéa de 3 000 à 7 000 en deux ans'
       ],
       highlightsEs: [
+        'Dirigí el programa Quality of Acceptance en toda la red, elevando la aceptación a casi el 100 % mediante tablas de enrutamiento y campañas de comprador misterioso',
         'Llevé tres acuerdos de Discover Global Network hasta la firma: La Banque Postale (2019), Crédit Mutuel Arkéa (2019) y FrenchSys (2021)',
         'El acuerdo con Arkéa abrió la aceptación en tienda, móvil, comercio electrónico y cajeros en las redes Crédit Mutuel de Bretagne, Sud-Ouest y Massif Central',
         'La alianza con FrenchSys estableció un estándar técnico que permite a adquirentes y comercios franceses aceptar Discover junto a las demás grandes redes',
-        'Amplié la aceptación: La Banque Postale 60 000 comercios; BNP Paribas de 5 000 a 30 000 el segundo año; Arkéa de 3 000 a 7 000 en dos años',
-        'Dirigí el programa Quality of Acceptance en toda la red, elevando la aceptación a casi el 100 % mediante tablas de enrutamiento y campañas de comprador misterioso'
+        'Amplié la aceptación: La Banque Postale 60 000 comercios; BNP Paribas de 5 000 a 30 000 el segundo año; Arkéa de 3 000 a 7 000 en dos años'
       ],
       highlightsPt: [
+        'Liderei o programa Quality of Acceptance em toda a rede, elevando a aceitação para perto de 100 % através de tabelas de encaminhamento e campanhas de cliente mistério',
         'Conduzi três acordos da Discover Global Network até à assinatura: La Banque Postale (2019), Crédit Mutuel Arkéa (2019) e FrenchSys (2021)',
         'O acordo com o Arkéa abriu a aceitação em loja, telemóvel, comércio electrónico e caixas automáticas nas redes Crédit Mutuel de Bretagne, Sud-Ouest e Massif Central',
         'A parceria com a FrenchSys estabeleceu um padrão técnico que permite a adquirentes e comerciantes franceses aceitar Discover a par das outras grandes redes',
-        'Aumentei a aceitação: La Banque Postale 60 000 comerciantes; BNP Paribas de 5 000 para 30 000 no segundo ano; Arkéa de 3 000 para 7 000 em dois anos',
-        'Liderei o programa Quality of Acceptance em toda a rede, elevando a aceitação para perto de 100 % através de tabelas de encaminhamento e campanhas de cliente mistério'
+        'Aumentei a aceitação: La Banque Postale 60 000 comerciantes; BNP Paribas de 5 000 para 30 000 no segundo ano; Arkéa de 3 000 para 7 000 em dois anos'
       ],
       press: [
         { label: 'La Banque Postale × Discover Global Network (2019)', url: 'https://www.electronicpaymentsinternational.com/news/la-banque-postale-discover/' },
